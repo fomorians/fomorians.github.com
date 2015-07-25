@@ -1,0 +1,17 @@
+img {
+  border: none;
+  display: block;
+  margin: 28vh auto;
+  width: auto;
+  height: 44vh;
+}
+
+a {
+  text-align: center;
+  font-family: monospace;
+  color: #333;
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  right:20px;
+}
