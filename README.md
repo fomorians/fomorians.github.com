@@ -1,2 +1,2 @@
-# fomorians.github.com
+# fomorians.github.io
 Fomoro Website
