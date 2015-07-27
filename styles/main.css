@@ -1,9 +1,22 @@
-img {
-  border: none;
-  display: block;
-  margin: 28vh auto;
-  width: auto;
-  height: 44vh;
+h1 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 72px;
+  line-height: 1.5em;
+  margin: 0;
+  font-weight: 200;
+  text-transform: lowercase;
+  color: #333;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 a {
