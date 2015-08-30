@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fomoro</title>
+  <title>fomoro</title>
+  <link rel="icon" type="image/png" href="favicon.png">
   <link href="http://fonts.googleapis.com/css?family=Roboto:400,700,300,100" rel="stylesheet">
   <link href="styles/main.css" rel="stylesheet" />
 </head>
 <body>
   <section id="top" class="page">
     <header>
-      <h1>Fomoro</h1>
+      <h1><a href="#">Fomoro</a></h1>
       <nav>
         <ul>
-          <li><a href="#what">Product</a></li>
-          <li><a href="#how">How it works</a></li>
-          <li><a href="#who">Team</a></li>
-          <li><a href="#when">Contact</a></li>
+          <li><a href="#what" class="link">Product</a></li>
+          <li><a href="#how" class="link">How it works</a></li>
+          <li><a href="#who" class="link">Team</a></li>
+          <li><a href="#when" class="button">Contact</a></li>
         </ul>
       </nav>
     </header>
     <div class="content">
-      <h2 class="avoid">We're building next generation<br>character animation.</h2>
-      <h3 class="avoid">First mover advantage conversion pivot A/B testing<br>iPad gamification release deployment.</h3>
+      <h2 class="avoid">Believable character animation for games and VR</h2>
+      <h3 class="avoid">Using your smartphone and driven by neural networks</h3>
     </div>
   </section>
   <section id="what" class="page">
@@ -28,7 +29,7 @@
       <div class="columns">
         <div class="column">
           <h3>About the product</h3>
-          <p>Alpha sales return on investment churn rate market incubator equity leverage. Business-to-business interaction design lean startup direct mailing social proof ownership pivot virality.</p>
+          <p>We’re making a platform for generating high quality character animation for games and VR using ordinary camera recordings of an actor’s performance.</p>
         </div>
         <div class="column">&nbsp;</div>
       </div>
@@ -39,38 +40,44 @@
       <div class="columns">
         <div class="column">
           <h3>How it works</h3>
-          <p>Disruptive founders MVP buyer infographic social media lean startup first mover advantage channels rockstar sales investor traction. Investor creative ownership series A financing infographic twitter market gamification paradigm shift.</p>
+          <p>We’re using artificial neural networks to power our animation system. After pre-processing the video (stabilization, background segmentation, optical flow) the camera is aligned with a biomechanically constrained character model. The model is then trained to match the movements of the actor using reinforcement learning. Users upload videos through an app, preview the animation then download baked animations.</p>
         </div>
         <div class="column">&nbsp;</div>
       </div>
     </div>
   </section>
   <section id="who" class="page">
-    <div class="content">
+    <div class="content center">
       <div class="team-members">
         <div class="team-member">
           <img src="images/jim.png" alt="Jim" class="photo">
           <h4>Jim Fleming</h4>
-          <p>Mass market beta research &amp; development direct mailing stealth early adopters first mover advantage MVP.</p>
+          <p>Sold over 60k+ copies of his first video game, which was featured by Apple multiple times, won awards around the world, generated over six figures in sales and was featured in a series of documentaries sponsored by Autodesk.</p>
         </div>
         <div class="team-member">
           <img src="images/gabe.png" alt="Gabe" class="photo">
           <h4>Gabriel Martinez</h4>
-          <p>Mass market beta research &amp; development direct mailing stealth early adopters first mover advantage MVP.</p>
+          <p>Created CU2CL, a translator from CUDA to OpenCL, presented his research at the 2011 IEEE 17th International Conference on Parallel and Distributed Systems (ICPADS) and was awarded a patent for his work on the project.</p>
         </div>
       </div>
-      <p class="about">Metrics supply chain traction. Channels strategy buyer non-disclosure agreement infrastructure lean startup. First mover advantage gen-z disruptive. Deployment branding entrepreneur first mover advantage partnership angel investor holy grail backing marketing freemium stock.</p>
+      <p class="about">Something about being a strong team, passionate about the project and why they cannot fail.</p>
     </div>
   </section>
-  <section id="when" class="half-page">
+  <section id="when" class="page">
     <div class="content center">
       <h3>We're hard at work building the first prototype. Stay tuned.</h3>
-      <form>
-        <input type="text" placeholder="Enter your email address...">
-        <input type="submit" value="Submit">
-      </form>
+      <h4>If you'd like to chat, please <a href="mailto:team@barkingmousestudio.com">email us</a> directly or click "Help" below.</h4>
     </div>
   </section>
-  <footer>&copy; 2015</footer>
+  <footer>&copy; 2015 Barking Mouse Studio, Inc.</footer>
+
+  <script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("//assets.zendesk.com/embeddable_framework/main.js","fomoro.zendesk.com");/*]]>*/</script>
+
+  <script>
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+      analytics.load("8Ufk21a4lJGLdAn3DecjekkwQHIO7upU");
+      analytics.page()
+    }}();
+  </script>
 </body>
 </html>
