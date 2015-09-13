@@ -1,26 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fomoro</title>
-  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Raleway:200">
-  <link rel="stylesheet" type="text/css" href="styles/main.css" />
-  <meta name="google-site-verification" content="bnbjsCxlmRM-ITZM0pY5v17LYROeNT0y9HsnwMvbIFA" />
+  <title>fomoro</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="http://fonts.googleapis.com/css?family=Roboto:400,700,300,100" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet" />
 </head>
 <body>
-  <canvas></canvas>
-
-  <div class="center">
+  <section id="top" class="page">
     <header>
-      <h1 class="avoid">Fomoro</h1>
+      <h1><a href="#">Fomoro</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#what" class="link">How it works</a></li>
+          <li><a href="#who" class="link">Team</a></li>
+          <li><a href="#when" class="button">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-  </div>
+    <div class="content">
+      <h2 class="avoid">Believable character animation for games and VR</h2>
+      <h3 class="avoid">Use your phone to record a performance and sit back while we do the rest</h3>
+    </div>
+  </section>
+  <section id="what" class="page">
+    <div class="content">
+      <div class="columns">
+        <div class="column">
+          <h3>Physically-based animation</h3>
 
-  <a href="mailto:team@barkingmousestudio.com">team@barkingmousestudio.com</a>
+          <p>
+            Everything in games these days is physically-based, from the lighting, the shaders, hair and cloth simulation—isn't it time your animations were too.
+            Get realistic character animation with minimal effort.
+          </p>
+        </div>
+        <div class="column">
+          <h3>Deep learning for motion</h3>
 
-  <script src="scripts/vector.js"></script>
-  <script src="scripts/quad.js"></script>
-  <script src="scripts/particle.js"></script>
-  <script src="scripts/flock.js"></script>
-  <script src="scripts/main.js"></script>
+          <p>
+            Imagine a virtual world where characters move like you do. They walk, they jump, they run: naturally.
+            We use deep learning to drive our motion controllers so that your character rigs move intelligently.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="who" class="page">
+    <div class="content center">
+      <div class="team-members">
+        <div class="team-member">
+          <img src="images/jim.png" alt="Jim" class="photo">
+          <h4>Jim Fleming</h4>
+          <p>Sold over 60k+ copies of his first video game, which was featured by Apple multiple times, won awards around the world, generated over six figures in sales and was featured in a series of documentaries sponsored by Autodesk.</p>
+        </div>
+        <div class="team-member">
+          <img src="images/gabe.png" alt="Gabe" class="photo">
+          <h4>Gabriel Martinez</h4>
+          <p>Created CU2CL, a translator from CUDA to OpenCL, presented his research at the 2011 IEEE 17th International Conference on Parallel and Distributed Systems (ICPADS) and was awarded a patent for his work on the project.</p>
+        </div>
+      </div>
+      <p class="about">Something about being a strong team, passionate about the project and why they cannot fail.</p>
+    </div>
+  </section>
+  <section id="when" class="page">
+    <div class="content center">
+      <h3>We're hard at work building the first prototype. Stay tuned.</h3>
+      <h4>If you'd like to chat, please <a href="mailto:team@barkingmousestudio.com">email us</a> directly or click "Help" below.</h4>
+    </div>
+  </section>
+  <footer>&copy; 2015 Barking Mouse Studio, Inc.</footer>
+
+  <script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("//assets.zendesk.com/embeddable_framework/main.js","fomoro.zendesk.com");/*]]>*/</script>
+
+  <script>
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+      analytics.load("8Ufk21a4lJGLdAn3DecjekkwQHIO7upU");
+      analytics.page()
+    }}();
+  </script>
 </body>
 </html>
