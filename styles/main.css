@@ -54,6 +54,7 @@ header nav ul > li a.link:hover {
 
 #top.page {
   min-height: 100vh;
+  padding: 0;
 }
 
 .page:nth-child(even) {
