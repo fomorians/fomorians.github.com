@@ -1,11 +1,17 @@
-h1 {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-  font-size: 72px;
-  line-height: 1.5em;
+body {
   margin: 0;
-  font-weight: 200;
-  text-transform: lowercase;
-  color: #333;
+  padding: 0;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  background: white;
+  color: rgb(72, 72, 72);
+}
+
+#draw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .center {
@@ -19,12 +25,24 @@ h1 {
   bottom: 0;
 }
 
-a {
+header {
+  text-align: left;
+  padding: 20px 60px;
+  line-height: 1.5;
+}
+
+a.contact {
   text-align: center;
-  font-family: monospace;
-  color: #333;
-  display: block;
+  display: inline-block;
   position: absolute;
   bottom: 20px;
-  right:20px;
+  right: 20px;
+  color: inherit;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 60px;
+  text-transform: lowercase;
 }

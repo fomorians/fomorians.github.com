@@ -16,18 +16,93 @@
   window.maxCohesion = 0.2;
   window.maxJitter = 0.2;
 
-  function Flock(boids) {
+  function nearest(position, centroids) {
+    var distance, nearestDistance;
+    var centroid, nearestCentroid;
+    for (var i = 0; i < centroids.length; i++) {
+      centroid = centroids[i];
+      distance = Vector.distance(position, centroid.mean);
+      if (!nearestDistance || distance < nearestDistance) {
+        nearestDistance = distance;
+        nearestCentroid = i;
+      }
+    }
+    return nearestCentroid;
+  }
+
+  function Flock(boids, centroids) {
     this.boids = boids;
+    this.centroids = centroids;
   }
 
   Flock.prototype.update = function() {
-    var boid;
-    for (var i = 0; i < this.boids.length; i++) {
-      boid = this.boids[i];
-      boid.acceleration.add(this.separation(boid));
-      boid.acceleration.add(this.alignment(boid));
-      boid.acceleration.add(this.cohesion(boid));
-      boid.acceleration.add(this.jitter());
+    var boidA, boidB;
+    var distance;
+    var i, j;
+    var separation, cohesion, alignment;
+    var cohesionCount, alignmentCount;
+    var diff;
+
+    for (i = 0; i < this.centroids.length; i++) {
+      this.centroids[i].clear();
+    }
+
+    for (i = 0; i < this.boids.length; i++) {
+      boidA = this.boids[i];
+
+      separation = new Vector();
+
+      cohesion = new Vector();
+      cohesionCount = 0;
+
+      alignment = new Vector();
+      alignmentCount = 0;
+
+      boidA.centroid = nearest(boidA.position, this.centroids);
+      this.centroids[boidA.centroid].observations.push(boidA.position);
+
+      for (j = 0; j < this.boids.length; j++) {
+        if (i === j) { // ignore self
+          continue;
+        }
+
+        boidB = this.boids[j];
+        distance = Vector.distance(boidA.position, boidB.position);
+
+        // cohesion - steer to move toward the average position (center of mass) of local flockmates
+        if (distance <= distanceCohesion) {
+          cohesion.add(boidB.position);
+          cohesionCount++;
+        }
+
+        if (distance <= distanceSeparation) {
+          separation.add(Vector.sub(boidA.position, boidB.position).multiplyScalar(1 / distance));
+        }
+
+        // alignment - steer towards the average heading of local flockmates
+        if (distance <= distanceAlignment) {
+          alignment.add(boidB.velocity.clone().normalize());
+          alignmentCount++;
+        }
+      }
+
+      if (cohesionCount > 0) { // average
+        cohesion.divideScalar(cohesionCount);
+        cohesion.sub(boidA.position);
+      }
+
+      if (alignmentCount > 0) { // average
+        alignment.divideScalar(alignmentCount);
+      }
+
+      boidA.acceleration.add(separation.clamp(maxSeparation));
+      boidA.acceleration.add(alignment.clamp(maxAlignment));
+      boidA.acceleration.add(cohesion.clamp(maxCohesion));
+      boidA.acceleration.add(this.jitter());
+    }
+
+    for (i = 0; i < this.centroids.length; i++) {
+      this.centroids[i].update();
     }
   };
 
@@ -35,104 +110,6 @@
     var x = Math.cos(randomRange(0, 2 * Math.PI));
     var y = Math.sin(randomRange(0, 2 * Math.PI));
     return new Vector(x, y).multiplyScalar(maxJitter);
-  };
-
-  // cohesion - steer to move toward the average position (center of mass) of local flockmates
-  Flock.prototype.cohesion = function(boid) {
-    var cohesion = new Vector();
-    var count = 0;
-    var other;
-    var distance;
-
-    for (var i = 0; i < this.boids.length; i++) {
-      other = this.boids[i];
-
-      if (boid === other) {
-        // Ignore self
-        continue;
-      }
-
-      distance = Vector.distance(boid.position, other.position);
-      if (distance > distanceCohesion) {
-        // Max distance
-        continue;
-      }
-
-      cohesion.add(other.position);
-      count++;
-    }
-
-    if (count > 0) {
-      // Average
-      cohesion.divideScalar(count);
-      cohesion.sub(boid.position);
-    }
-
-    return cohesion.clamp(maxCohesion);
-  };
-
-  // alignment - steer towards the average heading of local flockmates
-  Flock.prototype.alignment = function(boid) {
-    var alignment = new Vector();
-    var count = 0;
-    var other;
-    var distance;
-
-    for (var i = 0; i < this.boids.length; i++) {
-      other = this.boids[i];
-
-      if (boid === other) {
-        // Ignore self
-        continue;
-      }
-
-      distance = Vector.distance(boid.position, other.position);
-      if (distance > distanceAlignment) {
-        // Max distance
-        continue;
-      }
-
-      alignment.add(other.velocity.clone().normalize());
-      count++;
-    }
-
-    if (count > 0) {
-      // Average
-      alignment.divideScalar(count);
-    }
-
-    return alignment.clamp(maxAlignment);
-  };
-
-  // separation - steer to avoid crowding local flockmates
-  Flock.prototype.separation = function(boid) {
-    var separation = new Vector();
-    var other;
-    var distance;
-    var count = 0;
-
-    for (var i = 0; i < this.boids.length; i++) {
-      other = this.boids[i];
-
-      if (boid == other) {
-        // Ignore self
-        continue;
-      }
-
-      distance = Vector.distance(boid.position, other.position);
-      if (distance > distanceSeparation) {
-        // Max distance
-        continue;
-      }
-
-      var diff = Vector.sub(boid.position, other.position);
-      diff.multiplyScalar(1 / distance);
-
-      separation.add(diff);
-      count++;
-    }
-
-    return separation.clamp(maxSeparation);
   };
 
   window.Flock = Flock;
