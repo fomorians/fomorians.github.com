@@ -2,12 +2,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
   background: white;
   color: rgb(72, 72, 72);
 }
 
 #draw {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 50%;
@@ -20,11 +21,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 50%;
   right: 0;
   bottom: 0;
+  overflow: scroll;
 }
 
 header {
@@ -35,10 +37,13 @@ header {
 
 code {
   display: block;
+  font-weight: bolder;
   background: #efefef;
   border: 1px solid #e8e8e8;
   padding: 4px;
   border-radius: 2px;
+  font-family: 'Roboto Mono';
+  font-size: 14px;
 }
 
 h1, h2, h3 {
@@ -53,6 +58,11 @@ h1 {
 h2 {
   font-size: 22px;
   color: rgb(128, 128, 128);
+  margin-bottom: 32px;
+}
+
+a {
+  color: rgb(72, 72, 72);
 }
 
 @media (max-width: 640px) {
