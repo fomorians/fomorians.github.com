@@ -10,17 +10,19 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
+  right: 50%;
   bottom: 0;
 }
 
 .center {
+  background: #fafafa;
+  border-left: 1px solid #d6d6d6;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
   right: 0;
   bottom: 0;
 }
@@ -31,18 +33,54 @@ header {
   line-height: 1.5;
 }
 
-a.contact {
-  text-align: center;
-  display: inline-block;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  color: inherit;
+code {
+  display: block;
+  background: #efefef;
+  border: 1px solid #e8e8e8;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 300;
 }
 
 h1 {
-  margin: 0;
-  font-weight: 300;
-  font-size: 60px;
-  text-transform: lowercase;
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 22px;
+  color: rgb(128, 128, 128);
+}
+
+@media (max-width: 640px) {
+  #draw {
+    right: 0;
+    opacity: 0.4;
+  }
+
+  .center {
+    left: 0;
+    background: transparent;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    text-align: center;
+  }
 }
