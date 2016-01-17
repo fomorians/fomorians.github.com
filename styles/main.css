@@ -10,23 +10,27 @@ body {
 #draw {
   position: fixed;
   top: 0;
-  left: 0;
-  right: 50%;
+  left: 50%;
+  right: 0;
   bottom: 0;
 }
 
-.center {
+.content {
   background: #fafafa;
-  border-left: 1px solid #d6d6d6;
+  border-right: 1px solid #d6d6d6;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
   top: 0;
-  left: 50%;
-  right: 0;
+  left: 0;
+  right: 50%;
   bottom: 0;
   overflow: scroll;
+}
+
+.center {
+  text-align: center;
 }
 
 header {
@@ -37,16 +41,15 @@ header {
 
 code {
   display: block;
-  font-weight: bolder;
   background: #efefef;
   border: 1px solid #e8e8e8;
-  padding: 4px;
+  padding: 4px 8px;
   border-radius: 2px;
   font-family: 'Roboto Mono';
-  font-size: 14px;
+  font-size: 0.8em;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   margin: 0;
   font-weight: 300;
 }
@@ -56,24 +59,34 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 24px;
   color: rgb(128, 128, 128);
-  margin-bottom: 32px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 28px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 20px;
 }
 
 a {
   color: rgb(72, 72, 72);
 }
 
-@media (max-width: 640px) {
-  #draw {
-    right: 0;
-    opacity: 0.4;
-  }
-
-  .center {
-    left: 0;
-    background: transparent;
+@media (max-width: 800px) {
+  body {
+    font-size: 14px;
   }
 
   h1 {
@@ -81,16 +94,27 @@ a {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 20px;
+    margin-bottom: 16px;
   }
 
   h3 {
     font-size: 18px;
+    margin-bottom: 20px;
   }
-}
 
-@media (max-width: 480px) {
-  header {
-    text-align: center;
+  h4 {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+
+  #draw {
+    left: 0;
+    opacity: 0.4;
+  }
+
+  .content {
+    right: 0;
+    background: transparent;
   }
 }

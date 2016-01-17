@@ -16,31 +16,37 @@
 
   <div id="draw"></div>
 
-  <div class="center">
+  <div class="content">
     <header>
       <h1>Fomoro</h1>
       <h2>Train your deep learning models in the cloud.</h2>
-      <p>1. Push your model and dataset.</p>
+      <h3 class="center"><a href="http://goo.gl/forms/RwvUcq9nZW" target="_blank">Sign up</a> for early access.</h3>
+      <h4>1. Push your model and dataset:</h4>
       <p>
-        <code>fomoro data push</code>
+        <code>
+          $ fomoro data push
+          <br>
+          $ fomoro model push
+        </code>
       </p>
+      <h4>2. Train your model:</h4>
       <p>
-        <code>fomoro model push</code>
+        <code>$ fomoro session start</code>
       </p>
-      <p>2. Train your model:</p>
+      <h4>3. Monitor progress:</h4>
       <p>
-        <code>fomoro session start</code>
-      </p>
-      <p>3. Monitor its progress:</p>
+        <code>
+          $ fomoro session watch
+          <br>
+          Running [===-----------------] 14% (280/2000) ETA: 128.4s
+        </code>
       <p>
-        <code>fomoro session start</code>
+      <h4>4. Download checkpoints:</h4>
       <p>
-      <p>4. Download the latest checkpoint:</p>
-      <p>
-        <code>fomoro checkpoint pull</code>
+        <code>$ fomoro checkpoint pull</code>
       <p>
       <p>
-        <a href="http://goo.gl/forms/RwvUcq9nZW">Sign up</a> for early access or <a href="mailto:team@fomoro.com">contact us</a> with any questions.
+        Read the <a href="https://fomoro.gitbooks.io/guide/content/" target="_blank">docs</a> as they develop, or <a href="mailto:team@fomoro.com">contact us</a> with any questions.
       </p>
     </header>
   </div>
