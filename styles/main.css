@@ -116,5 +116,6 @@ a {
   .content {
     right: 0;
     background: transparent;
+    align-items: flex-start;
   }
 }
