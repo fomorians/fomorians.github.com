@@ -84,6 +84,23 @@ a {
   color: rgb(72, 72, 72);
 }
 
+#a0-lock.a0-theme-default .a0-panel button.a0-primary {
+  background: #e5ac73 !important;
+}
+
+#a0-lock.a0-theme-default .a0-panel button.a0-primary:hover {
+  background: #f0b478 !important;
+}
+
+#a0-lock.a0-theme-default .a0-panel button.a0-primary:active {
+  background: #cc9966 !important;
+}
+
+.a0-panel {
+  background-image: url('/images/background.jpg') !important;
+  background-size: cover !important;
+}
+
 @media (max-width: 800px) {
   body {
     font-size: 14px;

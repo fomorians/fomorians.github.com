@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Fomoro</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
   <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -16,16 +16,16 @@
 
   <div id="draw"></div>
 
+  <div id="signup-container"></div>
+
   <div class="content">
     <header>
       <h1>Fomoro</h1>
-      <h2>Train your deep learning models in the cloud.</h2>
-      <h3 class="center"><a href="http://goo.gl/forms/RwvUcq9nZW" target="_blank">Sign up</a> for early access.</h3>
-      <h4>1. Push your model and dataset:</h4>
+      <h2>Easy training for your deep learning models</h2>
+      <h3 class="center"><a href="#" id="signup">Sign up</a> for the free public beta.</h3>
+      <h4>1. Push your TensorFlow model:</h4>
       <p>
         <code>
-          $ fomoro data push
-          <br>
           $ fomoro model push
         </code>
       </p>
@@ -50,6 +50,17 @@
       </p>
     </header>
   </div>
+
+  <script src="https://cdn.auth0.com/js/lock-7.min.js"></script>
+  <script>
+    var lock = new Auth0Lock('DvJctZSNy4E0szp7yVgysuNvJoP6G2YL', 'fomoro.auth0.com');
+    document.getElementById('signup').onclick = function(e) {
+      e.preventDefault();
+      lock.showSignup({
+        callbackURL: 'https://fomoro.gitbooks.io/guide/content/'
+      });
+    };
+  </script>
 
   <script src="scripts/two.js"></script>
   <script src="scripts/vector.js"></script>
