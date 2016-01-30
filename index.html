@@ -47,17 +47,6 @@
     </header>
   </div>
 
-  <script src="https://cdn.auth0.com/js/lock-7.min.js"></script>
-  <script>
-    var lock = new Auth0Lock('DvJctZSNy4E0szp7yVgysuNvJoP6G2YL', 'fomoro.auth0.com');
-    document.getElementById('signup').onclick = function(e) {
-      e.preventDefault();
-      lock.showSignup({
-        callbackURL: 'https://fomoro.gitbooks.io/guide/content/setup.html'
-      });
-    };
-  </script>
-
   <script src="scripts/two.js"></script>
   <script src="scripts/vector.js"></script>
   <script src="scripts/particle.js"></script>
@@ -70,6 +59,18 @@
       analytics.load("8Ufk21a4lJGLdAn3DecjekkwQHIO7upU");
       analytics.page()
     }}();
+  </script>
+
+  <script src="https://cdn.auth0.com/js/lock-7.min.js"></script>
+  <script>
+    var lock = new Auth0Lock('DvJctZSNy4E0szp7yVgysuNvJoP6G2YL', 'fomoro.auth0.com');
+    document.getElementById('signup').onclick = function(e) {
+      e.preventDefault();
+      analytics.track('Clicked Signup');
+      lock.showSignup({
+        callbackURL: 'https://fomoro.gitbooks.io/guide/content/setup.html'
+      });
+    };
   </script>
 </body>
 </html>
