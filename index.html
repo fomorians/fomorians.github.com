@@ -16,8 +16,6 @@
 
   <div id="draw"></div>
 
-  <div id="signup-container"></div>
-
   <div class="content">
     <header>
       <h1>Fomoro</h1>
@@ -72,7 +70,8 @@
       e.preventDefault();
       analytics.track('Clicked Signup');
       lock.showSignup({
-        callbackURL: 'https://fomoro.gitbooks.io/guide/content/setup.html'
+        callbackURL: 'https://fomoro.gitbooks.io/guide/content/setup.html',
+        loginAfterSignup: false
       });
     };
   </script>
