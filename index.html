@@ -20,7 +20,12 @@
     <header>
       <h1>Fomoro</h1>
       <h2>Easy training for your deep learning models</h2>
-      <h3 class="center"><a href="#" id="signup">Sign up</a> for the free public beta.</h3>
+      <div id="signup">
+        <h3 class="center"><a href="#" id="signup-link">Sign up</a> for the free public beta.</h3>
+        <div class="thanks">
+          Thanks for signing up! <a href="https://fomoro.gitbooks.io/guide/content/setup.html" target="_blank">Click here to get started</a>.
+        </div>
+      </div>
       <h4>1. Push your TensorFlow model:</h4>
       <p>
         <code>
@@ -63,16 +68,45 @@
     }}();
   </script>
 
+  <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/af833orb';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
   <script src="https://cdn.auth0.com/js/lock-7.min.js"></script>
+
   <script>
+    Intercom('boot', { app_id: 'af833orb' });
+
     var lock = new Auth0Lock('DvJctZSNy4E0szp7yVgysuNvJoP6G2YL', 'fomoro.auth0.com');
-    document.getElementById('signup').onclick = function(e) {
+
+    var result = lock.parseHash(window.location.hash);
+    if (result && result.id_token) {
+      lock.getProfile(result.id_token, function(err, profile) {
+        if (err) {
+          console.error(err);
+          return;
+        }
+
+        analytics.identify(profile.user_id, {
+          email: profile.email
+        });
+
+        analytics.track('Signup');
+
+        Intercom('update', {
+          user_id: profile.user_id,
+          email: profile.email,
+          created_at: Date.now() / 1000
+        });
+
+        document.getElementById('signup').className = 'success';
+      });
+    } else if (result && result.error) {
+      console.error(result.error);
+    }
+
+    document.getElementById('signup-link').onclick = function(e) {
       e.preventDefault();
       analytics.track('Clicked Signup');
-      lock.showSignup({
-        callbackURL: 'https://fomoro.gitbooks.io/guide/content/setup.html',
-        loginAfterSignup: false
-      });
+      lock.showSignup();
     };
   </script>
 </body>

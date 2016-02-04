@@ -15,6 +15,28 @@ body {
   bottom: 0;
 }
 
+.thanks {
+  display: none;
+  background: #32c966;
+  color: white;
+  padding: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.thanks a {
+  color: white;
+}
+
+.success h3 {
+  display: none;
+}
+
+.success .thanks {
+  display: block;
+}
+
 .content {
   background: #fafafa;
   border-right: 1px solid #d6d6d6;
@@ -78,7 +100,7 @@ h2 {
 
 h3 {
   font-size: 20px;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
   font-weight: bold;
 }
 
