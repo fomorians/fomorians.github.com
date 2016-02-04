@@ -91,10 +91,13 @@
 
         analytics.track('Signup');
 
+        var now = Math.floor(Date.now() / 1000);
+
         Intercom('update', {
           user_id: profile.user_id,
           email: profile.email,
-          created_at: Date.now() / 1000
+          signed_up_at: now,
+          created_at: now
         });
 
         document.getElementById('signup').className = 'success';
