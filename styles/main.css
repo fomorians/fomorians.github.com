@@ -23,6 +23,7 @@ body {
   margin-bottom: 20px;
   text-align: center;
   font-weight: bold;
+  border-radius: 2px;
 }
 
 .thanks a {
