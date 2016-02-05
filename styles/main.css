@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -7,26 +11,52 @@ body {
   color: rgb(72, 72, 72);
 }
 
+header {
+  position: relative;
+  height: 50%;
+  min-height: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+hgroup {
+  position: relative;
+}
+
 #draw {
-  position: fixed;
+  position: absolute;
   top: 0;
-  left: 50%;
+  left: 0;
   right: 0;
   bottom: 0;
+  opacity: 0.4;
+}
+
+.signup {
+  background: #73c6e5;
+  color: white;
+  padding: 16px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.signup h3 {
+  font-weight: normal;
+}
+
+.signup a {
+  color: white;
 }
 
 .thanks {
   display: none;
-  background: #32c966;
-  color: white;
-  padding: 12px;
-  margin-bottom: 20px;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 2px;
 }
 
-.thanks a {
+.success {
+  background: #66cc70;
   color: white;
 }
 
@@ -39,39 +69,86 @@ body {
 }
 
 .content {
-  background: #fafafa;
-  border-right: 1px solid #d6d6d6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 50%;
-  bottom: 0;
-  overflow: scroll;
+  margin: 0 auto;
+  padding: 60px;
+  max-width: 600px;
 }
 
 .example {
+  padding: 40px;
+  background: #efefef;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  margin: 0 auto;
+  padding: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 50%;
-  right: 0;
-  bottom: 0;
-  overflow: scroll;
 }
 
-.center {
+.pricing {
+  margin: 0 auto;
+  padding: 60px;
+  max-width: 800px;
+}
+
+.pricing h2 {
+  margin-bottom: 24px;
+}
+
+.pricing .plans {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.pricing .plans .plan {
+  width: 25%;
+  padding: 0 36px;
+  border-right: 1px solid #e8e8e8;
+}
+
+.pricing .plans .plan:first-child {
+  padding-left: 0;
+}
+
+.pricing .plans .plan:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.pricing .price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.pricing ul.features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing ul.features li {
+  line-height: 24px;
+}
+
+.pricing .title {
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.pricing .free {
+  margin-top: 24px;
+}
+
+footer {
+  border-top: 1px solid #e8e8e8;
+  background: #efefef;
+  color: rgb(128, 128, 128);
+  padding: 24px;
   text-align: center;
-}
-
-header {
-  text-align: left;
-  padding: 20px 60px;
-  line-height: 1.5;
 }
 
 code {
@@ -96,12 +173,10 @@ h1 {
 h2 {
   font-size: 24px;
   color: rgb(128, 128, 128);
-  margin-bottom: 20px;
 }
 
 h3 {
   font-size: 20px;
-  margin-bottom: 30px;
   font-weight: bold;
 }
 
@@ -119,18 +194,6 @@ a {
   color: rgb(72, 72, 72);
 }
 
-#a0-lock.a0-theme-default .a0-panel button.a0-primary {
-  background: #e5ac73 !important;
-}
-
-#a0-lock.a0-theme-default .a0-panel button.a0-primary:hover {
-  background: #f0b478 !important;
-}
-
-#a0-lock.a0-theme-default .a0-panel button.a0-primary:active {
-  background: #cc9966 !important;
-}
-
 @media (max-width: 800px) {
   body {
     font-size: 14px;
@@ -142,31 +205,14 @@ a {
 
   h2 {
     font-size: 20px;
-    margin-bottom: 16px;
   }
 
   h3 {
     font-size: 18px;
-    margin-bottom: 20px;
   }
 
   h4 {
     font-size: 16px;
     margin-bottom: 14px;
-  }
-
-  #draw {
-    left: 0;
-    opacity: 0.4;
-  }
-
-  .example {
-    display: none;
-  }
-
-  .content {
-    right: 0;
-    background: transparent;
-    align-items: flex-start;
   }
 }

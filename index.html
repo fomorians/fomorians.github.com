@@ -14,45 +14,94 @@
 </head>
 <body>
 
-  <div id="draw"></div>
-
-  <div class="content">
-    <header>
+  <header>
+    <div id="draw"></div>
+    <hgroup>
       <h1>Fomoro</h1>
       <h2>Easy training for your deep learning models</h2>
-      <div id="signup">
-        <h3 class="center"><a href="#" id="signup-link">Sign up</a> for the free public beta.</h3>
-        <div class="thanks">
-          Thanks for signing up! <a href="https://fomoro.gitbooks.io/guide/content/setup.html" target="_blank">Click here to get started</a>.
-        </div>
-      </div>
-      <h4>1. Push your TensorFlow model:</h4>
-      <p>
-        <code>
-          $ fomoro model push
-        </code>
-      </p>
-      <h4>2. Train your model:</h4>
-      <p>
-        <code>$ fomoro session start</code>
-      </p>
-      <h4>3. Monitor progress:</h4>
-      <p>
-        <code>
-          $ fomoro session watch
-          <br>
-          Running [===-----------------] 14% (280/2000) ETA: 128.4s
-        </code>
-      <p>
-      <p>
-        <a href="https://fomoro.gitbooks.io/guide/content/setup.html">Download</a> the client, read the <a href="https://fomoro.gitbooks.io/guide/content/getting_started.html" target="_blank">docs</a>, or <a href="mailto:team@fomoro.com">contact us</a> with any questions.
-      </p>
-    </header>
+    </hgroup>
+  </header>
+  <div id="signup" class="signup">
+    <h3>
+      <a href="#" id="signup-link">Sign up</a> for the free public beta.
+    </h3>
+    <h3 class="thanks">
+      Thanks for signing up! <a href="https://fomoro.gitbooks.io/guide/content/setup.html" target="_blank">Click here to get started</a>.
+    </h3>
+  </div>
+
+  <div class="content">
+    <h4>1. Push your TensorFlow model:</h4>
+    <p>
+      <code>
+        $ fomoro model push
+      </code>
+    </p>
+    <h4>2. Train your model:</h4>
+    <p>
+      <code>$ fomoro session start</code>
+    </p>
+    <h4>3. Monitor progress:</h4>
+    <p>
+      <code>
+        $ fomoro session watch
+        <br>
+        Running [===-----------------] 14% (280/2000) ETA: 128.4s
+      </code>
+    </p>
+    <h4>
+      <a href="https://fomoro.gitbooks.io/guide/content/setup.html" target="_blank">Download</a> the client, read the <a href="https://fomoro.gitbooks.io/guide/content/getting_started.html" target="_blank">docs</a>, or <a href="mailto:team@fomoro.com">contact us</a> with any questions.
+    </h4>
   </div>
 
   <div class="example">
     <img src="images/training.jpg" width="500" />
   </div>
+
+  <div class="pricing">
+    <h2>Pricing (Coming Soon)</h2>
+    <div class="plans">
+      <div class="plan">
+        <div class="title">Developer</div>
+        <div class="price">$30/mo</div>
+        <ul class="features">
+          <li>72 hours of training</li>
+          <li>10 GB of storage</li>
+        </ul>
+      </div>
+      <div class="plan">
+        <div class="title">Startup</div>
+        <div class="price">$120/mo</div>
+        <ul class="features">
+          <li>336 hours of training</li>
+          <li>100 GB of storage</li>
+        </ul>
+      </div>
+      <div class="plan">
+        <div class="title">Growth</div>
+        <div class="price">$240/mo</div>
+        <ul class="features">
+          <li>720 hours of training</li>
+          <li>1 TB of storage</li>
+        </ul>
+      </div>
+      <div class="plan">
+        <div class="title">Unlimited</div>
+        <div class="price">Contact Us</div>
+        <ul class="features">
+          <li>Unlimited training</li>
+          <li>Unlimited storage</li>
+        </ul>
+      </div>
+    </div>
+    <div class="free">
+      Fomoro is free to try with up to 1 GB of storage and 48 hours of training per month.
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2016 Fomoro, Inc.
+  </footer>
 
   <script src="scripts/two.js"></script>
   <script src="scripts/vector.js"></script>
@@ -100,7 +149,7 @@
           created_at: now
         });
 
-        document.getElementById('signup').className = 'success';
+        document.getElementById('signup').className = 'signup success';
       });
     } else if (result && result.error) {
       console.error(result.error);

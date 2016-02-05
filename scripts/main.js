@@ -17,19 +17,18 @@
 
   var minWidth = 640;
 
-  var width = window.innerWidth;
-  var height = window.innerHeight;
+  var el = document.getElementById('draw');
+
+  var width = el.offsetWidth;
+  var height = el.offsetHeight;
 
   var isMobile = width <= minWidth;
   if (isMobile) {
     setTimeout(function() {
       two.pause();
     }, 3000);
-  } else {
-    width /= 2;
   }
 
-  var el = document.getElementById('draw');
   var params = {
     width: width,
     height: height,
