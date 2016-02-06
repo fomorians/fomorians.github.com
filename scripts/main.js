@@ -14,8 +14,9 @@
   var maxDistance = 72;
   var pixelWidth = 1.5;
   var maxNeighbors = 5;
+  var speedDecay = 0.01;
 
-  var minWidth = 640;
+  var minWidth = 800;
 
   var el = document.getElementById('draw');
 
@@ -26,7 +27,7 @@
   if (isMobile) {
     setTimeout(function() {
       two.pause();
-    }, 3000);
+    }, 7 * 1000);
   }
 
   var params = {
@@ -80,10 +81,15 @@
     }
   }
 
+  var center = new Vector(width / 2, height / 2);
   var flock = new Flock(boids, centroids);
   var lines = [];
 
   two.bind('update', function(frameCount) {
+    if (isMobile) {
+      window.maxSpeed -= speedDecay * window.maxSpeed;
+    }
+
     flock.update();
 
     var boidA, boidB;
@@ -106,11 +112,16 @@
       lines[i].noStroke();
     }
 
+    var avoid, diff;
     for (i = 0; i < boids.length; i++) {
       boidA = boids[i];
       boidA.neighbors = 0;
       boidA.update();
       boidA.wrap(width, height);
+
+      diff = Vector.sub(boidA.position, center);
+      avoid = diff.normalize().multiplyScalar(0.02 / diff.magnitude());
+      boidA.velocity.add(avoid);
 
       boidRenderer = boidRenderers[i];
       boidRenderer.translation.set(boidA.position.x, boidA.position.y);
