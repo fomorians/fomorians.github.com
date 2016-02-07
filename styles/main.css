@@ -75,20 +75,29 @@ hgroup {
 }
 
 .example {
-  background: #2C303B;
-  border-top: 1px solid #e8e8e8;
-  border-bottom: 1px solid #e8e8e8;
+  /*['#66cc70', '#73c6e5', '#e573b6', '#e5e073', '#e5ac73']*/
+  background: #73c6e5;
+  color: white;
   padding: 20px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.example a {
+  color: white;
 }
 
 .example img {
   max-width: 100%;
   max-height: auto;
   width: 500px;
+}
+
+.example p {
+  margin: 20px 0 0;
 }
 
 .pricing {
