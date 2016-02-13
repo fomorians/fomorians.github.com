@@ -1,3 +1,4 @@
+/*['#66cc70', '#73c6e5', '#e573b6', '#e5e073', '#e5ac73']*/
 html, body {
   height: 100%;
 }
@@ -6,7 +7,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
+  line-height: 1.5;
   background: white;
   color: rgb(72, 72, 72);
 }
@@ -26,6 +28,47 @@ hgroup {
   position: relative;
 }
 
+code {
+  display: block;
+  background: #efefef;
+  border: 1px solid #e8e8e8;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-family: 'Roboto Mono';
+  font-size: 0.8em;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 24px;
+  color: rgb(128, 128, 128);
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+a {
+  color: rgb(72, 72, 72);
+}
+
 #draw {
   position: absolute;
   top: 0;
@@ -41,10 +84,6 @@ hgroup {
   padding: 16px;
   line-height: 32px;
   text-align: center;
-}
-
-.signup h3 {
-  font-weight: normal;
 }
 
 .signup a {
@@ -68,43 +107,9 @@ hgroup {
   display: block;
 }
 
-.content {
-  margin: 0 auto;
-  padding: 60px;
-  max-width: 600px;
-}
-
-.example {
-  /*['#66cc70', '#73c6e5', '#e573b6', '#e5e073', '#e5ac73']*/
-  background: #73c6e5;
-  color: white;
-  padding: 20px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.example a {
-  color: white;
-}
-
-.example img {
-  max-width: 100%;
-  max-height: auto;
-  width: 500px;
-}
-
-.example p {
-  margin: 20px 0 0;
-}
-
 .pricing {
   margin: 0 auto;
   padding: 60px;
-  max-width: 800px;
 }
 
 .pricing h2 {
@@ -139,13 +144,13 @@ hgroup {
   margin-bottom: 12px;
 }
 
-.pricing ul.features {
+.pricing ul.details {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.pricing ul.features li {
+.pricing ul.details li {
   line-height: 24px;
 }
 
@@ -158,55 +163,61 @@ hgroup {
   margin-top: 24px;
 }
 
-footer {
-  border-top: 1px solid #e8e8e8;
-  background: #efefef;
-  color: rgb(128, 128, 128);
-  padding: 24px;
-  text-align: center;
+.content {
+  padding: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-code {
-  display: block;
+.content:nth-child(even) {
   background: #efefef;
-  border: 1px solid #e8e8e8;
-  padding: 4px 8px;
-  border-radius: 2px;
-  font-family: 'Roboto Mono';
-  font-size: 0.8em;
 }
 
-h1, h2, h3, h4 {
+.content:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.content .description {
+  width: 50%;
+}
+
+.content .image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .image img {
+  max-width: 500px;
+}
+
+.content p {
   margin: 0;
-  font-weight: 300;
 }
 
-h1 {
-  font-size: 44px;
-}
-
-h2 {
-  font-size: 24px;
+footer {
+  background: #efefef;
   color: rgb(128, 128, 128);
+  padding: 60px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-h3 {
-  font-size: 20px;
-  font-weight: bold;
+footer .left a {
+  padding: 0 8px;
 }
 
-h4 {
-  font-size: 18px;
-  margin-bottom: 18px;
-  font-weight: bold;
+footer .left a:first-child {
+  padding-left: 0;
 }
 
-p {
-  margin: 0 0 20px;
-}
-
-a {
-  color: rgb(72, 72, 72);
+footer .left a:last-child {
+  padding-right: 0;
 }
 
 @media (max-width: 800px) {
@@ -231,6 +242,11 @@ a {
     margin-bottom: 14px;
   }
 
+  .content,
+  .pricing {
+    padding: 24px;
+  }
+
   .pricing .plans {
     flex-direction: column;
     text-align: center;
@@ -241,5 +257,11 @@ a {
     padding: 24px 0;
     border: none;
     border-bottom: 1px solid #e8e8e8;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
   }
 }

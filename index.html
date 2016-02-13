@@ -7,7 +7,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <link href="//fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <link href="styles/main.css" rel="stylesheet">
 
@@ -18,7 +18,7 @@
     <div id="draw"></div>
     <hgroup>
       <h1>Fomoro</h1>
-      <h2>Easy training for your deep learning models</h2>
+      <h2>Easy training for your machine learning models</h2>
     </hgroup>
   </header>
   <div id="signup" class="signup">
@@ -31,41 +31,49 @@
   </div>
 
   <div class="content">
-    <h4>1. Push your TensorFlow model:</h4>
-    <p>
-      <code>
-        $ fomoro model push
-      </code>
-    </p>
-    <h4>2. Train your model:</h4>
-    <p>
-      <code>$ fomoro session start</code>
-    </p>
-    <h4>3. Monitor progress:</h4>
-    <p>
-      <code>
-        $ fomoro session watch
-        <br>
-        Running [===-----------------] 14% (280/2000) ETA: 128.4s
-      </code>
-    </p>
-    <h4>
-      <a href="https://fomoro.gitbooks.io/guide/content/setup.html" target="_blank">Download</a> the client, read the <a href="https://fomoro.gitbooks.io/guide/content/getting_started.html" target="_blank">docs</a>, check out the <a href="https://fomoro.gitbooks.io/guide/content/api.html" target="_blank">API</a>, or <a href="mailto:team@fomoro.com">contact us</a> with any questions.
-    </h4>
+    <div class="description">
+      <h2>Just TensorFlow</h2>
+      <p>TensorFlow is to machine learning what Hadoop was for map/reduce.</p>
+    </div>
+    <div class="image">
+    </div>
   </div>
 
-  <div class="example">
-    <img src="images/tensorboard.jpg" />
-    <p>Full <a href="https://fomoro.gitbooks.io/guide/content/summaries.html" target="_blank">TensorBoard support</a> to monitor your models while they train.</p>
+  <div class="content">
+    <div class="description">
+      <h2>Cloud Infrastructure</h2> <!-- multiple models -->
+      <p>We run all of the infrastructure required making TensorFlow approacheable.</p>
+    </div>
+    <div class="image">
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="description">
+      <h2>TensorBoard</h2>
+      <p>Full <a href="https://fomoro.gitbooks.io/guide/content/summaries.html" target="_blank">TensorBoard support</a> to monitor your models while they train.</p>
+    </div>
+    <div class="image">
+      <img src="images/tensorboard.jpg" alt="TensorBoard" />
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="description">
+      <h2>More</h2> <!-- multiple models -->
+      <p><a href="https://fomoro.gitbooks.io/guide/content/setup.html" target="_blank">Download</a> the client, read the <a href="https://fomoro.gitbooks.io/guide/content/getting_started.html" target="_blank">docs</a>, check out the <a href="https://fomoro.gitbooks.io/guide/content/api.html" target="_blank">API</a>, or <a href="mailto:team@fomoro.com">contact us</a> with any questions.</p>
+    </div>
+    <div class="image">
+    </div>
   </div>
 
   <div class="pricing">
-    <h2>Pricing (Coming Soon)</h2>
+    <h2>Pricing coming soon...</h2>
     <div class="plans">
       <div class="plan">
         <div class="title">Developer</div>
         <div class="price">$30/mo</div>
-        <ul class="features">
+        <ul class="details">
           <li>72 hours of training</li>
           <li>10 GB of storage</li>
         </ul>
@@ -73,7 +81,7 @@
       <div class="plan">
         <div class="title">Startup</div>
         <div class="price">$120/mo</div>
-        <ul class="features">
+        <ul class="details">
           <li>336 hours of training</li>
           <li>100 GB of storage</li>
         </ul>
@@ -81,7 +89,7 @@
       <div class="plan">
         <div class="title">Growth</div>
         <div class="price">$240/mo</div>
-        <ul class="features">
+        <ul class="details">
           <li>720 hours of training</li>
           <li>1 TB of storage</li>
         </ul>
@@ -89,7 +97,7 @@
       <div class="plan">
         <div class="title">Custom</div>
         <div class="price"><a href="mailto:team@fomoro.com">Contact Us</a></div>
-        <ul class="features">
+        <ul class="details">
           <li>Unlimited training</li>
           <li>Unlimited storage</li>
         </ul>
@@ -100,7 +108,15 @@
     </div>
   </div>
 
-  <footer>&copy; 2016 Fomoro</footer>
+  <footer>
+    <div class="left">
+      <a href="https://fomoro.gitbooks.io/guide/content/setup.html" target="_blank">Setup</a>
+      <a href="https://fomoro.gitbooks.io/guide/content/getting_started.html" target="_blank">Documentation</a>
+      <a href="https://fomoro.gitbooks.io/guide/content/api.html" target="_blank">API</a>
+      <a href="mailto:team@fomoro.com">Contact</a>
+    </div>
+    <div class="right">&copy; 2016 Fomoro</div>
+  </footer>
 
   <script src="scripts/two.js"></script>
   <script src="scripts/vector.js"></script>
@@ -109,12 +125,12 @@
   <script src="scripts/flock.js"></script>
   <script src="scripts/main.js"></script>
 
-  <script>
+  <!-- <script>
     !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
       analytics.load("8Ufk21a4lJGLdAn3DecjekkwQHIO7upU");
       analytics.page()
     }}();
-  </script>
+  </script> -->
 
   <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/af833orb';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 
