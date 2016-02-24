@@ -13,19 +13,27 @@ body {
   color: rgb(72, 72, 72);
 }
 
-header {
-  position: relative;
-  height: 50%;
-  min-height: 400px;
+main {
+  min-height: 85vh;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 
-hgroup {
-  position: relative;
+footer {
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+h1 {
+  margin-top: 25vh;
+}
+
+a {
+  color: #3F94FF;
+}
+
+a:hover {
+  color: #117CF2;
+  text-decoration: none;
 }
 
 code {
@@ -38,37 +46,6 @@ code {
   font-size: 0.8em;
 }
 
-h1, h2, h3, h4 {
-  margin: 0;
-  font-weight: 300;
-}
-
-h1 {
-  font-size: 44px;
-}
-
-h2 {
-  font-size: 24px;
-  color: rgb(128, 128, 128);
-}
-
-h3 {
-  font-size: 20px;
-}
-
-h4 {
-  font-size: 18px;
-  margin-bottom: 18px;
-}
-
-p {
-  margin: 0 0 20px;
-}
-
-a {
-  color: rgb(72, 72, 72);
-}
-
 #draw {
   position: absolute;
   top: 0;
@@ -78,25 +55,38 @@ a {
   opacity: 0.4;
 }
 
-.signup {
-  background: #73c6e5;
-  color: white;
-  padding: 16px;
-  line-height: 32px;
-  text-align: center;
+.jumbotron {
+  background-color: transparent;
+  position: relative;
+  border-bottom: 1px solid #efefef;
 }
 
-.signup a {
-  color: white;
+.container {
+  position: relative;
+}
+
+#signup {
+  margin-top: 45px;
+}
+
+#signup-link {
+  background-color: #3F94FF;
+  color: #fff;
+  padding: 12px 24px;
+  font-weight: lighter;
+}
+
+#signup-link:hover {
+  background-color: #117CF2;
+}
+
+#signup-link a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .thanks {
   display: none;
-}
-
-.success {
-  background: #66cc70;
-  color: white;
 }
 
 .success h3 {
@@ -107,161 +97,55 @@ a {
   display: block;
 }
 
-.pricing {
-  margin: 0 auto;
-  padding: 60px;
+#pricing {
+  text-align: center;
 }
 
-.pricing h2 {
-  margin-bottom: 24px;
+#pricing h2 {
+  margin-top: 0;
 }
 
-.pricing .plans {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-direction: row;
+#pricing .plan {
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
 
-.pricing .plans .plan {
-  width: 25%;
-  padding: 0 36px;
-  border-right: 1px solid #e8e8e8;
-}
-
-.pricing .plans .plan:first-child {
-  padding-left: 0;
-}
-
-.pricing .plans .plan:last-child {
-  border-right: none;
-  padding-right: 0;
-}
-
-.pricing .price {
+#pricing .price {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 12px;
 }
 
-.pricing ul.details {
+#pricing ul.details {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.pricing ul.details li {
-  line-height: 24px;
-}
-
-.pricing .title {
-  margin-bottom: 12px;
-  text-transform: uppercase;
-}
-
-.pricing .free {
+#pricing .free {
   margin-top: 24px;
 }
 
-.content {
-  padding: 60px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-direction: row;
+img {
+  height: 60px;
+  display: block;
 }
 
-.content:nth-child(even) {
-  background: #efefef;
+#features .feature {
+  clear: both;
 }
 
-.content:nth-child(even) {
-  flex-direction: row-reverse;
+#features img {
+  float: left;
+  height: 60px;
+  margin: 10px 30px 30px 0;
 }
 
-.content .description {
-  width: 50%;
+#info img {
+  margin: 35px 30px 30px 0;
+  float: left;
 }
 
-.content .image {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.content .image img {
-  max-width: 500px;
-}
-
-.content p {
-  margin: 0;
-}
-
-footer {
-  background: #efefef;
-  color: rgb(128, 128, 128);
-  padding: 60px;
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-footer .left a {
-  padding: 0 8px;
-}
-
-footer .left a:first-child {
-  padding-left: 0;
-}
-
-footer .left a:last-child {
-  padding-right: 0;
-}
-
-@media (max-width: 800px) {
-  body {
-    font-size: 14px;
-  }
-
-  h1 {
-    font-size: 36px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  h4 {
-    font-size: 16px;
-    margin-bottom: 14px;
-  }
-
-  .content,
-  .pricing {
-    padding: 24px;
-  }
-
-  .pricing .plans {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .pricing .plans .plan {
-    width: 100%;
-    padding: 24px 0;
-    border: none;
-    border-bottom: 1px solid #e8e8e8;
-  }
-
-  footer {
-    flex-direction: column;
-    text-align: center;
-    padding: 24px;
-  }
+#pricing img {
+  margin: 0 auto;
 }
