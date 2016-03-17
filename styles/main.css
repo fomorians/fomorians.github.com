@@ -52,7 +52,9 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.7;
+  opacity: 0.8;
+  background: url('../images/boids2.jpg');
+  background-size: cover;
 }
 
 .jumbotron {

@@ -5,6 +5,14 @@
     return Math.random() * (max - min) + min;
   }
 
+  // function convertCanvasToImage(canvas, callback) {
+  //   var image = new Image();
+  //   image.onload = function() {
+  //     callback(image);
+  //   };
+  //   image.src = canvas.toDataURL("image/png");
+  // }
+
   var Vector = window.Vector;
   var Flock = window.Flock;
   var Particle = window.Particle;
@@ -171,6 +179,12 @@
         boidRenderer.noFill();
       }
     }
+
+    // if (frameCount % Math.floor(Math.random() * 100) === 0) {
+    //   convertCanvasToImage(two.renderer.domElement, function(img) {
+    //     document.body.appendChild(img);
+    //   });
+    // }
   });
 
   two.play();
