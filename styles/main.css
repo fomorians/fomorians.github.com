@@ -29,11 +29,12 @@ h1 {
 
 a {
   color: #3F94FF;
+  text-decoration: none;
 }
 
-a:hover {
+a:hover, a:active, a:focus {
   color: #117CF2;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 code {
