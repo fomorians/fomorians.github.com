@@ -29,7 +29,7 @@
         <p>machine learning infastructure made easy</p>
         <div id="signup" class="signup">
           <h3>
-            <a href="#" id="signup-link">sign up</a>
+            <a href="#" class="btn btn-lg btn-primary signup-link">sign up</a>
           </h3>
           <h3 class="thanks">
             Thanks for signing up! <a href="https://fomoro.gitbooks.io/guide/content/installation.html" target="_blank">Click here to get started</a>.
@@ -39,37 +39,59 @@
     </div>
   </main>
 
+  <section class="jumbotron" id="steps">
+    <div class="container">
+      <h2>Focus on machine learning, not infrastructure</h2>
+      <p>Let us handle the GPUs, model versioning, datasets, training artifacts &amp; logging <br> so you can focus on building machine learning applications.</p>
+
+      <img src="images/steps.jpg">
+    </div>
+  </section>
+
+  <section class="jumbotron" id="video">
+    <div class="container">
+      <h2>Train in the cloud as easily as you train locally</h2>
+      <script type="text/javascript" src="https://asciinema.org/a/3uafdtz9lmnx3qr3rqg0inwg0.js" id="asciicast-3uafdtz9lmnx3qr3rqg0inwg0" data-size="medium" data-speed="2" data-theme="solarized-dark" async></script>
+    </div>
+  </section>
+
   <section class="jumbotron" id="features">
     <div class="container">
-      <div class="col-md-6 ">
-        <h2>Train &amp; Scale<br>Machine Learning Models</h2>
-        <p>Fomoro is a platform for training machine learning models with a focus on deep learning. We automate the infrastructure required for model training on GPUs, model version and dataset management.</p>
+      <div class="col-md-12">
+        <h2>More Features</h2>
       </div>
       <div class="col-md-6">
         <div class="feature">
-          <img src="./images/anyplatform.png">
+          <img src="./images/reproduce.png" class="icon">
+          <h3>On-Demand GPUs</h3>
+          <p>Accelerate your training with GPUs.</p>
+        </div>
+        <div class="feature">
+          <img src="./images/anyplatform.png" class="icon">
           <h3>Model Agnostic</h3>
           <p>Use TensorFlow, Theano, Keras, Lasagne or your own custom code.</p>
         </div>
         <div class="feature">
-          <img src="./images/versions.png">
+          <img src="./images/versions.png" class="icon">
           <h3>Integrated Versioning</h3>
           <p>Track your models and training sessions, automatically, using git.</p>
         </div>
+      </div>
+      <div class="col-md-6">
         <div class="feature">
-          <img src="./images/reproduce.png">
-          <h3>Training Artifacts</h3>
-          <p>Download versioned models, checkpoints, logs and other artifacts from training sessions.</p>
-        </div>
-        <div class="feature">
-          <img src="./images/record.png">
+          <img src="./images/record.png" class="icon">
           <h3>Multiple Sessions</h3>
           <p>Train multiple models or branches simultaneously.</p>
         </div>
         <div class="feature">
-          <img src="./images/robot.png">
+          <img src="./images/robot.png" class="icon">
           <h3>Dataset Management<h3>
           <p>Publish versioned datasets to keep your data and code in sync.</p>
+        </div>
+        <div class="feature">
+          <img src="./images/reproduce.png" class="icon">
+          <h3>Training Artifacts</h3>
+          <p>Download versioned models, checkpoints, logs and other artifacts from training sessions.</p>
         </div>
       </div>
     </div>
@@ -80,7 +102,7 @@
       <h2>Pricing (coming soon)</h2>
       <div class="row">
         <div class="col-md-3 col-sm-6 plan">
-          <img src="./images/developer.png">
+          <img src="./images/developer.png" class="icon">
           <h3 class="title">Developer</h3>
           <div class="price">$30/mo</div>
           <ul class="details">
@@ -89,7 +111,7 @@
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 plan">
-          <img src="./images/startup.png">
+          <img src="./images/startup.png" class="icon">
           <h3 class="title">Startup</h3>
           <div class="price">$120/mo</div>
           <ul class="details">
@@ -98,7 +120,7 @@
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 plan">
-          <img src="./images/growth.png">
+          <img src="./images/growth.png" class="icon">
           <h3 class="title">Growth</h3>
           <div class="price">$240/mo</div>
           <ul class="details">
@@ -107,7 +129,7 @@
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 plan">
-          <img src="./images/custom.png">
+          <img src="./images/custom.png" class="icon">
           <h3 class="title">Custom</h3>
           <div class="price"><a href="mailto:team@fomoro.com">Contact Us</a></div>
           <ul class="details">
@@ -123,16 +145,19 @@
   <section class="jumbotron" id="info">
     <div class="container">
       <div class="col-md-10 col-md-offset-1">
-        <img src="./images/rocket.png">
+        <img src="./images/rocket.png" class="icon">
 
         <h2>Get Started</h2>
         <p><a href="https://fomoro.gitbooks.io/guide/content/installation.html" target="_blank">Download</a> the client, read the <a href="https://fomoro.gitbooks.io/guide/content/index.html" target="_blank">docs</a>, check out the <a href="https://fomoro.gitbooks.io/guide/content/api.html" target="_blank">API</a>, or <a href="mailto:team@fomoro.com">contact us</a> with any questions.</p>
+        <h3>
+          <a href="#" class="btn btn-lg btn-primary signup-link">sign up</a>
+        </h3>
       </div>
     </div>
   </section>
 
-  <footer class="container">
-      <p class="col-md-12">&copy; 2016 Fomoro</p>
+  <footer>
+      &copy; 2016 Fomoro
   </footer>
 </body>
 
@@ -188,11 +213,15 @@
       console.error(result.error);
     }
 
-    document.getElementById('signup-link').onclick = function(e) {
-      e.preventDefault();
-      analytics.track('Clicked Signup');
-      lock.showSignup();
-    };
+    var links = document.querySelectorAll('.signup-link');
+    for (var i in links) {
+      var link = links[i];
+      link.onclick = function(e) {
+        e.preventDefault();
+        analytics.track('Clicked Signup');
+        lock.showSignup();
+      };
+    }
   </script>
 </body>
 </html>
