@@ -20,8 +20,7 @@ main {
 
 footer {
   text-align: right;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px;
 }
 
 h1 {
