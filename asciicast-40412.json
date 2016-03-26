@@ -1,0 +1,1990 @@
+{
+  "version": 1,
+  "width": 78,
+  "height": 21,
+  "duration": 91.291056,
+  "command": "/usr/local/bin/fish",
+  "title": "",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/fish"
+  },
+  "stdout": [
+    [
+      0.031339,
+      "\u001b]0;~/Doc"
+    ],
+    [
+      0.000009,
+      "uments\u0007\u001b[3"
+    ],
+    [
+      0.000003,
+      "0m\u001b("
+    ],
+    [
+      0.000003,
+      "B\u001b[m"
+    ],
+    [
+      0.016010,
+      "\u001b]0;~/Documents\u0007"
+    ],
+    [
+      0.000013,
+      "\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000091,
+      "\u001b[38;5;245m⏎\u001b[0m                                                                             \r \r"
+    ],
+    [
+      0.000088,
+      " ~/Documents \u001b[32m♦\u001b[30m\u001b(B\u001b[m \u001b[K"
+    ],
+    [
+      1.051900,
+      "g"
+    ],
+    [
+      0.000181,
+      "\u0008\u001b[38;5;166mg\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000975,
+      "\u001b[38;5;242mit status\u001b[9D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.070823,
+      "\u001b[38;5;166mi\u001b[38;5;242mt status\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.125994,
+      "\u001b[38;5;166mt\u001b[38;5;242m status\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000147,
+      "\u0008\u0008\u0008\u001b[38;5;247mgit\u001b[38;5;242m status\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.292827,
+      "\u001b[38;5;247m \u001b[38;5;242mstatus\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000154,
+      "\u0008 \u001b[38;5;242mstatus\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.168487,
+      "c\u001b[K"
+    ],
+    [
+      0.000398,
+      "\u001b[38;5;242mlone git@github.com:fomorians/fomoro-tensorflow.git\u001b[51D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000239,
+      "\u0008\u001b[38;5;246mc\u001b[38;5;242mlone git@github.com:fomorians/fomoro-tensorflow.git\u001b[51D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.094739,
+      "\u001b[38;5;246ml\u001b[38;5;242mone git@github.com:fomorians/fomoro-tensorflow.git\u001b[50D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.093183,
+      "\u001b[38;5;246mo\u001b[38;5;242mne git@github.com:fomorians/fomoro-tensorflow.git\u001b[49D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.104240,
+      "\u001b[38;5;246mn\u001b[38;5;242me git@github.com:fomorians/fomoro-tensorflow.git\u001b[48D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.136678,
+      "\u001b[38;5;246me\u001b[38;5;242m git@github.com:fomorians/fomoro-tensorflow.git\u001b[47D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.331189,
+      "\u001b[38;5;246m git@github.com:fomorians/fomoro-tensorflow.git\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000212,
+      "\u001b[47D \u001b[38;5;246mgit@github.com:fomorians/fomoro-tensorflow.git\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.569924,
+      "\r\n"
+    ],
+    [
+      0.000004,
+      "\u001b"
+    ],
+    [
+      0.000002,
+      "[3"
+    ],
+    [
+      0.000002,
+      "0m"
+    ],
+    [
+      0.000002,
+      "\u001b("
+    ],
+    [
+      0.000002,
+      "B\u001b"
+    ],
+    [
+      0.000002,
+      "[m"
+    ],
+    [
+      0.002235,
+      "\u001b]0;~/Documents\u0007"
+    ],
+    [
+      0.000014,
+      "\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.002642,
+      "Cloning into 'fomoro-tensorflow'...\r\n"
+    ],
+    [
+      1.216701,
+      "remote: Counting objects: 201, done.\u001b[K\r\n"
+    ],
+    [
+      0.000614,
+      "remote: Compressing objects:   5% (1/18)   \u001b[K\rremote: Compressing objects:  11% (2/18)   \u001b[K\rremote: Compressing objects:  16% (3/18)   \u001b[K\r"
+    ],
+    [
+      0.000045,
+      "remote: Compressing objects:  22% (4/18)   \u001b[K\rremote: Compressing objects:  27% (5/18)   \u001b[K\r"
+    ],
+    [
+      0.000012,
+      "remote: Compressing objects:  33% (6/18)   \u001b[K\rremote: Compressing objects:  38% (7/18)   \u001b[K\rremote: Compressing objects:  44% (8/18)   \u001b[K\rremote: Compressing objects:  50% (9/18)   \u001b[K\r"
+    ],
+    [
+      0.000013,
+      "remote: Compressing objects:  55% (10/18)   \u001b[K\rremote: Compressing objects:  61% (11/18)   \u001b[K\rremote: Compressing objects:  66% (12/18)   \u001b[K\r"
+    ],
+    [
+      0.000005,
+      "remote: Compressing objects:  72% (13/18)   \u001b[K\rremote: Compressing objects:  77% (14/18)   \u001b[K\r"
+    ],
+    [
+      0.000005,
+      "remote: Compressing objects:  83% (15/18)   \u001b[K\r"
+    ],
+    [
+      0.000005,
+      "remote: Compressing objects:  88% (16/18)   \u001b[K\r"
+    ],
+    [
+      0.000014,
+      "remote: Compressing objects:  94% (17/18)   \u001b[K\r"
+    ],
+    [
+      0.000005,
+      "remote: Compressing objects: 100% (18/18)   \u001b[K\r"
+    ],
+    [
+      0.000006,
+      "remote: Compressing objects: 100% (18/18), done.\u001b[K\r\n"
+    ],
+    [
+      0.082308,
+      "Receiving objects:   0% (1/201)   \r"
+    ],
+    [
+      0.000025,
+      "Receiving objects:   1% (3/201)   \r"
+    ],
+    [
+      0.000061,
+      "Receiving objects:   2% (5/201)   \r"
+    ],
+    [
+      0.000047,
+      "Receiving objects:   3% (7/201)   \r"
+    ],
+    [
+      0.000230,
+      "Receiving objects:   4% (9/201)   \r"
+    ],
+    [
+      0.000099,
+      "Receiving objects:   5% (11/201)   \r"
+    ],
+    [
+      0.000179,
+      "Receiving objects:   6% (13/201)   \r"
+    ],
+    [
+      0.000105,
+      "Receiving objects:   7% (15/201)   \rReceiving objects:   8% (17/201)   \r"
+    ],
+    [
+      0.000123,
+      "Receiving objects:   9% (19/201)   \r"
+    ],
+    [
+      0.000073,
+      "Receiving objects:  10% (21/201)   \r"
+    ],
+    [
+      0.000007,
+      "Receiving objects:  11% (23/201)   \r"
+    ],
+    [
+      0.000044,
+      "Receiving objects:  12% (25/201)   \r"
+    ],
+    [
+      0.000106,
+      "Receiving objects:  13% (27/201)   \r"
+    ],
+    [
+      0.000034,
+      "Receiving objects:  14% (29/201)   \r"
+    ],
+    [
+      0.000077,
+      "Receiving objects:  15% (31/201)   \r"
+    ],
+    [
+      0.000033,
+      "Receiving objects:  16% (33/201)   \r"
+    ],
+    [
+      0.000048,
+      "Receiving objects:  17% (35/201)   \r"
+    ],
+    [
+      0.000057,
+      "Receiving objects:  18% (37/201)   \r"
+    ],
+    [
+      0.000047,
+      "Receiving objects:  19% (39/201)   \r"
+    ],
+    [
+      0.000033,
+      "Receiving objects:  20% (41/201)   \r"
+    ],
+    [
+      0.000028,
+      "Receiving objects:  21% (43/201)   \r"
+    ],
+    [
+      0.000037,
+      "Receiving objects:  22% (45/201)   \r"
+    ],
+    [
+      0.000018,
+      "Receiving objects:  23% (47/201)   \r"
+    ],
+    [
+      0.000046,
+      "Receiving objects:  24% (49/201)   \r"
+    ],
+    [
+      0.045777,
+      "remote: Total 201 (delta 9), reused 0 (delta 0), pack-reused 183\u001b[K\r\n"
+    ],
+    [
+      0.000083,
+      "Receiving objects:  25% (51/201)   \r"
+    ],
+    [
+      0.000050,
+      "Receiving objects:  26% (53/201)   \r"
+    ],
+    [
+      0.000034,
+      "Receiving objects:  27% (55/201)   \r"
+    ],
+    [
+      0.000048,
+      "Receiving objects:  28% (57/201)   \r"
+    ],
+    [
+      0.000035,
+      "Receiving objects:  29% (59/201)   \r"
+    ],
+    [
+      0.000018,
+      "Receiving objects:  30% (61/201)   \r"
+    ],
+    [
+      0.000113,
+      "Receiving objects:  31% (63/201)   \r"
+    ],
+    [
+      0.000073,
+      "Receiving objects:  32% (65/201)   \r"
+    ],
+    [
+      0.000026,
+      "Receiving objects:  33% (67/201)   \r"
+    ],
+    [
+      0.000003,
+      "Receiving objects:  34% (69/201)   \r"
+    ],
+    [
+      0.000045,
+      "Receiving objects:  35% (71/201)   \r"
+    ],
+    [
+      0.000020,
+      "Receiving objects:  36% (73/201)   \r"
+    ],
+    [
+      0.000009,
+      "Receiving objects:  37% (75/201)   \r"
+    ],
+    [
+      0.000033,
+      "Receiving objects:  38% (77/201)   \r"
+    ],
+    [
+      0.000022,
+      "Receiving objects:  39% (79/201)   \r"
+    ],
+    [
+      0.000025,
+      "Receiving objects:  40% (81/201)   \r"
+    ],
+    [
+      0.000041,
+      "Receiving objects:  41% (83/201)   \r"
+    ],
+    [
+      0.000023,
+      "Receiving objects:  42% (85/201)   \r"
+    ],
+    [
+      0.000030,
+      "Receiving objects:  43% (87/201)   \r"
+    ],
+    [
+      0.000012,
+      "Receiving objects:  44% (89/201)   \r"
+    ],
+    [
+      0.000042,
+      "Receiving objects:  45% (91/201)   \r"
+    ],
+    [
+      0.000018,
+      "Receiving objects:  46% (93/201)   \r"
+    ],
+    [
+      0.001467,
+      "Receiving objects:  47% (95/201)   \rReceiving objects:  48% (97/201)   \rReceiving objects:  49% (99/201)   \rReceiving objects:  50% (101/201)   \rReceiving objects:  51% (103/201)   \rReceiving objects:  52% (105/201)   \rReceiving objects:  53% (107/201)   \rReceiving objects:  54% (109/201)   \rReceiving objects:  55% (111/201)   \rReceiving objects:  56% (113/201)   \rReceiving objects:  57% (115/201)   \rReceiving objects:  58% (117/201)   \rReceiving objects:  59% (119/201)   \rReceiving objects:  60% (121/201)   \rReceiving objects:  61% (123/201)   \rReceiving objects:  62% (125/201)   \rReceiving objects:  63% (127/201)   \rReceiving objects:  64% (129/201)   \rReceiving objects:  65% (131/201)   \rReceiving objects:  66% (133/201)   \rReceiving objects:  67% (135/201)   \rReceiving objects:  68% (137/201)   \rReceiving objects:  69% (139/201)   \rReceiving objects:  70% (141/201)   \rReceiving objects:  71% (143/201)   \rReceiving objects:  72% (145/201)   \rReceiving objects:  73% (147/201)   \rReceiving objects:  74% (149"
+    ],
+    [
+      0.001294,
+      "/201)   \rReceiving objects:  75% (151/201)   \rReceiving objects:  76% (153/201)   \rReceiving objects:  77% (155/201)   \rReceiving objects:  78% (157/201)   \rReceiving objects:  79% (159/201)   \rReceiving objects:  80% (161/201)   \rReceiving objects:  81% (163/201)   \rReceiving objects:  82% (165/201)   \rReceiving objects:  83% (167/201)   \rReceiving objects:  84% (169/201)   \rReceiving objects:  85% (171/201)   \rReceiving objects:  86% (173/201)   \rReceiving objects:  87% (175/201)   \rReceiving objects:  88% (177/201)   \rReceiving objects:  89% (179/201)   \rReceiving objects:  90% (181/201)   \rReceiving objects:  91% (183/201)   \rReceiving objects:  92% (185/201)   \rReceiving objects:  93% (187/201)   \rReceiving objects:  94% (189/201)   \r"
+    ],
+    [
+      0.000186,
+      "Receiving objects:  95% (191/201)   \rReceiving objects:  96% (193/201)   \rReceiving objects:  97% (195/201)   \rReceiving objects:  98% (197/201)   \rReceiving objects:  99% (199/201)   \rReceiving objects: 100% (201/201)   \rReceiving objects: 100% (201/201), 35.85 KiB | 0 bytes/s, done.\r\n"
+    ],
+    [
+      0.000167,
+      "Resolving deltas:   0% (0/110)   \r"
+    ],
+    [
+      0.000283,
+      "Resolving deltas:   1% (2/110)   \r"
+    ],
+    [
+      0.000084,
+      "Resolving deltas:   5% (6/110)   \r"
+    ],
+    [
+      0.000114,
+      "Resolving deltas:   7% (8/110)   \rResolving deltas:  10% (12/110)   \r"
+    ],
+    [
+      0.000095,
+      "Resolving deltas:  15% (17/110)   \r"
+    ],
+    [
+      0.000138,
+      "Resolving deltas:  19% (21/110)   \rResolving deltas:  20% (23/110)   \r"
+    ],
+    [
+      0.000134,
+      "Resolving deltas:  26% (29/110)   \r"
+    ],
+    [
+      0.000043,
+      "Resolving deltas:  28% (31/110)   \r"
+    ],
+    [
+      0.000336,
+      "Resolving deltas:  43% (48/110)   \r"
+    ],
+    [
+      0.000238,
+      "Resolving deltas:  61% (68/110)   \r"
+    ],
+    [
+      0.000150,
+      "Resolving deltas:  70% (78/110)   \r"
+    ],
+    [
+      0.000165,
+      "Resolving deltas:  79% (87/110)   \r"
+    ],
+    [
+      0.000038,
+      "Resolving deltas:  80% (89/110)   \r"
+    ],
+    [
+      0.000040,
+      "Resolving deltas:  81% (90/110)   \r"
+    ],
+    [
+      0.000004,
+      "Resolving deltas:  82% (91/110)   \r"
+    ],
+    [
+      0.000036,
+      "Resolving deltas:  83% (92/110)   \r"
+    ],
+    [
+      0.000036,
+      "Resolving deltas:  84% (93/110)   \r"
+    ],
+    [
+      0.000024,
+      "Resolving deltas:  85% (94/110)   \r"
+    ],
+    [
+      0.000018,
+      "Resolving deltas:  86% (95/110)   \r"
+    ],
+    [
+      0.000033,
+      "Resolving deltas:  87% (96/110)   \r"
+    ],
+    [
+      0.000025,
+      "Resolving deltas:  88% (97/110)   \r"
+    ],
+    [
+      0.000016,
+      "Resolving deltas:  89% (98/110)   \r"
+    ],
+    [
+      0.000085,
+      "Resolving deltas:  91% (101/110)   \r"
+    ],
+    [
+      0.000105,
+      "Resolving deltas:  95% (105/110)   \r"
+    ],
+    [
+      0.000063,
+      "Resolving deltas:  99% (109/110)   \r"
+    ],
+    [
+      0.000029,
+      "Resolving deltas: 100% (110/110)   \r"
+    ],
+    [
+      0.000066,
+      "Resolving deltas: 100% (110/110), done.\r\n"
+    ],
+    [
+      0.086170,
+      "Checking connectivity... "
+    ],
+    [
+      0.002982,
+      "done.\r\n"
+    ],
+    [
+      0.015103,
+      "\u001b]0;~/Documents\u0007"
+    ],
+    [
+      0.000006,
+      "\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000056,
+      "\u001b[38;5;245m⏎\u001b[0m                                                                             \r \r"
+    ],
+    [
+      0.000061,
+      " ~/Documents \u001b[32m♦\u001b[30m\u001b(B\u001b[m \u001b[K"
+    ],
+    [
+      0.624828,
+      "c"
+    ],
+    [
+      0.000402,
+      "\u001b[38;5;242md fomoro-tensorflow/\u001b[20D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000185,
+      "\u0008\u001b[38;5;166mc\u001b[38;5;242md fomoro-tensorflow/\u001b[20D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.183167,
+      "\u001b[38;5;166md\u001b[38;5;242m fomoro-tensorflow/\u001b[19D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000354,
+      "\u0008\u0008\u001b[38;5;247mcd\u001b[38;5;242m fomoro-tensorflow/\u001b[19D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.079078,
+      "\u001b[38;5;247m \u001b[38;5;242mfomoro-tensorflow/\u001b[18D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000168,
+      "\u0008 \u001b[38;5;242mfomoro-tensorflow/\u001b[18D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.393934,
+      "fomoro-tensorflow/"
+    ],
+    [
+      0.000198,
+      "\u001b[18D\u001b[38;5;246m\u001b[4mfomoro-tensorflow/\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.581045,
+      "\r\n"
+    ],
+    [
+      0.000007,
+      "\u001b[30m\u001b(B\u001b"
+    ],
+    [
+      0.000003,
+      "[m"
+    ],
+    [
+      0.002418,
+      "\u001b]0;~/"
+    ],
+    [
+      0.000005,
+      "Documents\u0007\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.129477,
+      "\u001b]0;~/Documents/fomoro-tensorf"
+    ],
+    [
+      0.000007,
+      "low\u0007\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000079,
+      "\u001b[38;5;245m⏎\u001b[0m                                                                             \r \r"
+    ],
+    [
+      0.000115,
+      " ~/Documents/fomoro-tensorflow \u001b[34mmaster\u001b[30m\u001b(B\u001b[m \u001b[32m♦\u001b[30m\u001b(B\u001b[m \u001b[K"
+    ],
+    [
+      1.394415,
+      "v"
+    ],
+    [
+      0.000211,
+      "\u0008\u001b[38;5;166mv\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000967,
+      "\u001b[38;5;242mim fomoro.toml\u001b[14D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.094927,
+      "\u001b[38;5;166mi\u001b[38;5;242mm fomoro.toml\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000226,
+      "\u0008\u0008\u001b[38;5;247mvi\u001b[38;5;242mm fomoro.toml\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.059618,
+      "\u001b[38;5;247mm\u001b[38;5;242m fomoro.toml\u001b[12D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.565300,
+      "\u001b[38;5;247m fomoro.toml\u001b[30m\u001b(B\u001b[m\u001b[12D \u001b[38;5;246m\u001b[4mfomoro.toml\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.619563,
+      "\r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[30m\u001b(B\u001b["
+    ],
+    [
+      0.000003,
+      "m"
+    ],
+    [
+      0.002421,
+      "\u001b]0;~/Documents/fomoro-tensor"
+    ],
+    [
+      0.000006,
+      "flow\u0007\u001b[30m\u001b"
+    ],
+    [
+      0.000003,
+      "(B\u001b[m"
+    ],
+    [
+      0.005089,
+      "\u001b[?1049h\u001b[?1h\u001b="
+    ],
+    [
+      0.001655,
+      "\u001b[1;21r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[21;1H\"fomoro.toml\""
+    ],
+    [
+      0.000033,
+      " 4L, 118C"
+    ],
+    [
+      0.000183,
+      "\u001b[\u003ec"
+    ],
+    [
+      0.000253,
+      "\u001b[1;1Hname = \"convnet\"\r\nrepo = \"https://github.com/fomorians/fomoro-starter.git\"\r\ndescription = \"\"\r\nenvironment = \"tensorflow\"\r\n\u001b[94m~                                                                             \u001b[6;1H~                                                                             \u001b[7;1H~                                                                             \u001b[8;1H~                                                                             \u001b[9;1H~                                                                             \u001b[10;1H~                                                                             \u001b[11;1H~                                                                             \u001b[12;1H~                                                                             \u001b[13;1H~                                                                             \u001b[14;1H~                                                                             \u001b[15;1H~                                            "
+    ],
+    [
+      0.000030,
+      "                                 \u001b[16;1H~                                                                             \u001b[17;1H~                                                                             \u001b[18;1H~                                                                             \u001b[19;1H~                                                                             \u001b[20;1H~                                                                             \u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.842700,
+      "\r\n"
+    ],
+    [
+      0.164535,
+      "\r\n"
+    ],
+    [
+      0.416676,
+      "\u001b[15C"
+    ],
+    [
+      0.255716,
+      "\u001b[?25l\u001b[m\u001b[21;1H\u001b[1m-- INSERT --\u001b[m\u001b[21;13H\u001b[K"
+    ],
+    [
+      0.000015,
+      "\u001b[3;16H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.336432,
+      "\u001b[?25l\u0008\"A\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.132019,
+      "\u001b[?25l\u0008A \"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.187220,
+      "\u001b[?25l\u0008 s\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.137818,
+      "\u001b[?25l\u0008si\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.063371,
+      "\u001b[?25l\u0008im\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.182646,
+      "\u001b[?25l\u0008mp\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.035595,
+      "\u001b[?25l\u0008pl\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.104057,
+      "\u001b[?25l\u0008le\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087198,
+      "\u001b[?25l\u0008e \"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.134375,
+      "\u001b[?25l\u0008 c\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.095623,
+      "\u001b[?25l\u0008co\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.089114,
+      "\u001b[?25l\u0008on\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.129921,
+      "\u001b[?25l\u0008nv\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.080191,
+      "\u001b[?25l\u0008vo\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.174331,
+      "\u001b[?25l\u0008ol\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.264249,
+      "\u001b[?25l\u0008lu\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.130424,
+      "\u001b[?25l\u0008ut\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088170,
+      "\u001b[?25l\u0008ti\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.076268,
+      "\u001b[?25l\u0008io\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.121048,
+      "\u001b[?25l\u0008on\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.059592,
+      "\u001b[?25l\u0008na\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.140424,
+      "\u001b[?25l\u0008al\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087681,
+      "\u001b[?25l\u0008l \"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.169659,
+      "\u001b[?25l\u0008 n\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.116452,
+      "\u001b[?25l\u0008ne\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.122572,
+      "\u001b[?25l\u0008eu\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.089009,
+      "\u001b[?25l\u0008ur\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.116204,
+      "\u001b[?25l\u0008ra\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.092603,
+      "\u001b[?25l\u0008al\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.118193,
+      "\u001b[?25l\u0008l \"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.132108,
+      "\u001b[?25l\u0008 n\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.064120,
+      "\u001b[?25l\u0008ne\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.146633,
+      "\u001b[?25l\u0008et\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.144159,
+      "\u001b[?25l\u0008tw\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088182,
+      "\u001b[?25l\u0008wo\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.106414,
+      "\u001b[?25l\u0008or\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.067612,
+      "\u001b[?25l\u0008rk\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.126627,
+      "\u001b[?25l\u0008k \"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.044418,
+      "\u001b[?25l\u0008 i\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.055768,
+      "\u001b[?25l\u0008in\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.095194,
+      "\u001b[?25l\u0008n \"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.159765,
+      "\u001b[?25l\u0008 T\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.112706,
+      "\u001b[?25l\u0008Te\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.159484,
+      "\u001b[?25l\u0008en\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.104186,
+      "\u001b[?25l\u0008ns\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.137556,
+      "\u001b[?25l\u0008so\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088127,
+      "\u001b[?25l\u0008or\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.177111,
+      "\u001b[?25l\u0008rF\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087754,
+      "\u001b[?25l\u0008Fl\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.078863,
+      "\u001b[?25l\u0008lo\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.123205,
+      "\u001b[?25l\u0008ow\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.132256,
+      "\u001b[?25l\u0008w.\"\u0008\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.265002,
+      "\u001b[21;1H\u001b[K\u001b[3;67H"
+    ],
+    [
+      0.313553,
+      "\u001b[?25l"
+    ],
+    [
+      0.000175,
+      "\u001b[?12l\u001b[?25h\u001b[?25l\u001b[21;1H:"
+    ],
+    [
+      0.000024,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.044346,
+      "w"
+    ],
+    [
+      0.254347,
+      "q"
+    ],
+    [
+      0.234154,
+      "\r"
+    ],
+    [
+      0.000104,
+      "\u001b[?25l"
+    ],
+    [
+      0.000178,
+      "\"fomoro.toml\""
+    ],
+    [
+      0.001249,
+      " 4L, 170C written"
+    ],
+    [
+      0.000887,
+      "\r\r\r\n\u001b[?1l\u001b\u003e\u001b[?12l\u001b[?25h\u001b[?1049l"
+    ],
+    [
+      0.080403,
+      "\u001b]0;~/Documents/fomoro-tensorfl"
+    ],
+    [
+      0.000006,
+      "ow\u0007\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000092,
+      "\u001b[38;5;245m⏎\u001b[0m                                                                             \r \r"
+    ],
+    [
+      0.000112,
+      " ~/Documents/fomoro-tensorflow \u001b[31m±1\u001b[30m\u001b(B\u001b[m \u001b[34mmaster\u001b[30m\u001b(B\u001b[m \u001b[32m♦\u001b[30m\u001b(B\u001b[m \u001b[K"
+    ],
+    [
+      1.647897,
+      "f"
+    ],
+    [
+      0.000427,
+      "\u001b[38;5;242momoro model add\u001b[15D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000229,
+      "\u0008\u001b[38;5;166mf\u001b[38;5;242momoro model add\u001b[15D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.710676,
+      "\u001b[38;5;166mo\u001b[38;5;242mmoro model add\u001b[14D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.092898,
+      "\u001b[38;5;166mm\u001b[38;5;242moro model add\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.144337,
+      "\u001b[38;5;166mr\u001b[30m\u001b(B\u001b[m\u001b[K"
+    ],
+    [
+      0.062841,
+      "\u001b[38;5;166mo\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.499985,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.158092,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.156677,
+      "\u001b[38;5;166mo\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000275,
+      "\u001b[38;5;242mro model add\u001b[12D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.219614,
+      "\u001b[38;5;166mr\u001b[38;5;242mo model add\u001b[11D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.414392,
+      "\u001b[38;5;166mo model add\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000252,
+      "\u001b[16D\u001b[38;5;247mfomoro\u001b[30m\u001b(B\u001b[m \u001b[38;5;246mmodel\u001b[30m\u001b(B\u001b[m \u001b[38;5;246madd\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.294495,
+      "\r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[30m"
+    ],
+    [
+      0.000004,
+      "\u001b(B\u001b["
+    ],
+    [
+      0.000003,
+      "m"
+    ],
+    [
+      0.002556,
+      "\u001b]0;~/Documents/fomoro-tensor"
+    ],
+    [
+      0.000025,
+      "flow\u0007\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.568289,
+      "Creating model \"convnet\"...\r\n"
+    ],
+    [
+      0.245606,
+      "Successfully created model \"convnet\".\r\n"
+    ],
+    [
+      0.086838,
+      "\u001b]0;~/"
+    ],
+    [
+      0.000006,
+      "Documents/fomoro-tensorflow\u0007"
+    ],
+    [
+      0.000017,
+      "\u001b[30"
+    ],
+    [
+      0.000003,
+      "m\u001b(B\u001b[m"
+    ],
+    [
+      0.000091,
+      "\u001b[38;5;245m⏎\u001b[0m                                                                             \r \r"
+    ],
+    [
+      0.000123,
+      " ~/Documents/fomoro-tensorflow \u001b[31m±1\u001b[30m\u001b(B\u001b[m \u001b[34mmaster\u001b[30m\u001b(B\u001b[m \u001b[32m♦\u001b[30m\u001b(B\u001b[m \u001b[K"
+    ],
+    [
+      2.035481,
+      "f"
+    ],
+    [
+      0.000206,
+      "\u0008\u001b[38;5;166mf\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000155,
+      "\u001b[38;5;242momoro model add\u001b[15D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.091572,
+      "\u001b[38;5;166mo\u001b[38;5;242mmoro model add\u001b[14D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.092520,
+      "\u001b[38;5;166mm\u001b[38;5;242moro model add\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.136767,
+      "\u001b[38;5;166mo\u001b[38;5;242mro model add\u001b[12D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.151794,
+      "\u001b[38;5;166mr\u001b[38;5;242mo model add\u001b[11D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.080918,
+      "\u001b[38;5;166mo\u001b[38;5;242m model add\u001b[10D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000442,
+      "\u0008\u0008\u0008\u0008\u0008\u0008\u001b[38;5;247mfomoro\u001b[38;5;242m model add\u001b[10D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.314569,
+      "\u001b[38;5;247m \u001b[38;5;242mmodel add\u001b[9D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000246,
+      "\u0008 \u001b[38;5;242mmodel add\u001b[9D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.175785,
+      "s\u001b[K"
+    ],
+    [
+      0.000249,
+      "\u0008\u001b[38;5;246ms\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000941,
+      "\u001b[38;5;242mession status\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.139363,
+      "\u001b[38;5;246me\u001b[38;5;242mssion status\u001b[12D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.176810,
+      "\u001b[38;5;246ms\u001b[38;5;242msion status\u001b[11D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.144672,
+      "\u001b[38;5;246ms\u001b[38;5;242mion status\u001b[10D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.113504,
+      "\u001b[38;5;246mi\u001b[38;5;242mon status\u001b[9D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.067499,
+      "\u001b[38;5;246mo\u001b[38;5;242mn status\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.116820,
+      "\u001b[38;5;246mn\u001b[38;5;242m status\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.138548,
+      "\u001b[38;5;246m \u001b[38;5;242mstatus\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000240,
+      "\u0008 \u001b[38;5;242mstatus\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.132375,
+      "s\u001b[38;5;242mtatus\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000242,
+      "\u0008\u001b[38;5;246ms\u001b[38;5;242mtatus\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.148696,
+      "\u001b[38;5;246mt\u001b[38;5;242matus\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.118967,
+      "\u001b[38;5;246ma\u001b[38;5;242mtus\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.077045,
+      "\u001b[38;5;246mr\u001b[30m\u001b(B\u001b[m\u001b[K"
+    ],
+    [
+      0.000278,
+      "\u001b[38;5;242mt\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.155789,
+      "\u001b[38;5;246mt\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.136839,
+      "\r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[30m"
+    ],
+    [
+      0.000002,
+      "\u001b("
+    ],
+    [
+      0.000002,
+      "B\u001b"
+    ],
+    [
+      0.000002,
+      "[m"
+    ],
+    [
+      0.002225,
+      "\u001b]0;~/Documents/fomoro-tensor"
+    ],
+    [
+      0.000005,
+      "flow\u0007"
+    ],
+    [
+      0.000002,
+      "\u001b["
+    ],
+    [
+      0.000002,
+      "30"
+    ],
+    [
+      0.000002,
+      "m\u001b"
+    ],
+    [
+      0.000002,
+      "(B"
+    ],
+    [
+      0.000002,
+      "\u001b["
+    ],
+    [
+      0.000001,
+      "m"
+    ],
+    [
+      0.597108,
+      "Starting \"convnet\" at 3ad5d080...\r\n"
+    ],
+    [
+      0.329067,
+      "Successfully started \"convnet\" at 3ad5d080.\r\n"
+    ],
+    [
+      0.086609,
+      "\u001b]0;~/Documents/fomoro-tensorf"
+    ],
+    [
+      0.000006,
+      "low\u0007\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000097,
+      "\u001b[38;5;245m⏎\u001b[0m                                                                             \r \r"
+    ],
+    [
+      0.000123,
+      " ~/Documents/fomoro-tensorflow \u001b[31m±1\u001b[30m\u001b(B\u001b[m \u001b[34mmaster\u001b[30m\u001b(B\u001b[m \u001b[32m♦\u001b[30m\u001b(B\u001b[m \u001b[K"
+    ],
+    [
+      3.352984,
+      "f"
+    ],
+    [
+      0.000297,
+      "\u001b[38;5;242momoro session start\u001b[19D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000181,
+      "\u0008\u001b[38;5;166mf\u001b[38;5;242momoro session start\u001b[19D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.233269,
+      "\u001b[38;5;166mo\u001b[38;5;242mmoro session start\u001b[18D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.108839,
+      "\u001b[38;5;166mm\u001b[38;5;242moro session start\u001b[17D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.279795,
+      "\u001b[38;5;166mo\u001b[38;5;242mro session start\u001b[16D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.260289,
+      "\u001b[38;5;166mr\u001b[38;5;242mo session start\u001b[15D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.167560,
+      "\u001b[38;5;166mo\u001b[38;5;242m session start\u001b[14D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000235,
+      "\u0008\u0008\u0008\u0008\u0008\u0008\u001b[38;5;247mfomoro\u001b[38;5;242m session start\u001b[14D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.225365,
+      "\u001b[38;5;247m \u001b[38;5;242msession start\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000480,
+      "\u0008 \u001b[38;5;242msession start\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.293277,
+      "s\u001b[38;5;242mession start\u001b[12D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000277,
+      "\u0008\u001b[38;5;246ms\u001b[38;5;242mession start\u001b[12D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.151896,
+      "\u001b[38;5;246me\u001b[38;5;242mssion start\u001b[11D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.165049,
+      "\u001b[38;5;246ms\u001b[38;5;242msion start\u001b[10D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.168128,
+      "\u001b[38;5;246ms\u001b[38;5;242mion start\u001b[9D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.097816,
+      "\u001b[38;5;246mi\u001b[38;5;242mon start\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.060041,
+      "\u001b[38;5;246mo\u001b[38;5;242mn start\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.127792,
+      "\u001b[38;5;246mn\u001b[38;5;242m start\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.414892,
+      "\u001b[38;5;246m \u001b[38;5;242mstart\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000231,
+      "\u0008 \u001b[38;5;242mstart\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.221944,
+      "s\u001b[38;5;242mtart\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000438,
+      "\u0008\u001b[38;5;246ms\u001b[38;5;242mtart\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.246381,
+      "\u001b[38;5;246mt\u001b[38;5;242mart\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.155762,
+      "\u001b[38;5;246ma\u001b[38;5;242mrt\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.081863,
+      "\u001b[38;5;246mt\u001b[30m\u001b(B\u001b[m\u001b[K"
+    ],
+    [
+      0.000228,
+      "\u001b[38;5;242mus\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.125335,
+      "\u001b[38;5;246mu\u001b[38;5;242ms\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.150032,
+      "\u001b[38;5;246ms\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      1.778245,
+      "\r\n"
+    ],
+    [
+      0.000012,
+      "\u001b[30m"
+    ],
+    [
+      0.000003,
+      "\u001b(B\u001b"
+    ],
+    [
+      0.000002,
+      "[m"
+    ],
+    [
+      0.002338,
+      "\u001b]0;~"
+    ],
+    [
+      0.000005,
+      "/Documents/fomoro-tenso"
+    ],
+    [
+      0.000003,
+      "rfl"
+    ],
+    [
+      0.000002,
+      "ow"
+    ],
+    [
+      0.000002,
+      "\u0007"
+    ],
+    [
+      0.000019,
+      "\u001b[30"
+    ],
+    [
+      0.000003,
+      "m\u001b(B"
+    ],
+    [
+      0.000002,
+      "\u001b[m"
+    ],
+    [
+      0.761716,
+      "\u001b[31mSession                                             \u001b[39m\u001b[90m | \u001b[39m\u001b[31mState  \u001b[39m\u001b[90m | \u001b[39m\u001b[31mDuration     \u001b[39m\r\njim/convnet#3ad5d080782f90640227c426c9357763f3f05468\u001b[90m | \u001b[39mrunning\u001b[90m | \u001b[39ma few seconds\r\n"
+    ],
+    [
+      0.098249,
+      "\u001b]0;~/"
+    ],
+    [
+      0.000007,
+      "Documents/fomoro-tensorflow\u0007"
+    ],
+    [
+      0.000018,
+      "\u001b[30"
+    ],
+    [
+      0.000004,
+      "m\u001b(B\u001b[m"
+    ],
+    [
+      0.000153,
+      "\u001b[38;5;245m⏎\u001b[0m                                                                             \r \r"
+    ],
+    [
+      0.000115,
+      " ~/Documents/fomoro-tensorflow \u001b[31m±1\u001b[30m\u001b(B\u001b[m \u001b[34mmaster\u001b[30m\u001b(B\u001b[m \u001b[32m♦\u001b[30m\u001b(B\u001b[m \u001b[K"
+    ],
+    [
+      6.951844,
+      "f"
+    ],
+    [
+      0.000213,
+      "\u0008\u001b[38;5;166mf\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000175,
+      "\u001b[38;5;242momoro session status\u001b[20D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.443537,
+      "\u001b[38;5;166mo\u001b[38;5;242mmoro session status\u001b[19D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.346239,
+      "\u001b[38;5;166mm\u001b[38;5;242moro session status\u001b[18D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.159234,
+      "\u001b[38;5;166mo\u001b[38;5;242mro session status\u001b[17D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.160600,
+      "\u001b[38;5;166mr\u001b[38;5;242mo session status\u001b[16D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.098780,
+      "\u001b[38;5;166mo\u001b[38;5;242m session status\u001b[15D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000301,
+      "\u0008\u0008\u0008\u0008\u0008\u0008\u001b[38;5;247mfomoro\u001b[38;5;242m session status\u001b[15D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.629754,
+      "\u001b[38;5;247m \u001b[38;5;242msession status\u001b[14D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000467,
+      "\u0008 \u001b[38;5;242msession status\u001b[14D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.517853,
+      "s\u001b[38;5;242mession status\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000234,
+      "\u0008\u001b[38;5;246ms\u001b[38;5;242mession status\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.168699,
+      "\u001b[38;5;246me\u001b[38;5;242mssion status\u001b[12D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.174523,
+      "\u001b[38;5;246ms\u001b[38;5;242msion status\u001b[11D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.128805,
+      "\u001b[38;5;246ms\u001b[38;5;242mion status\u001b[10D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.153778,
+      "\u001b[38;5;246mi\u001b[38;5;242mon status\u001b[9D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.064846,
+      "\u001b[38;5;246mo\u001b[38;5;242mn status\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.135850,
+      "\u001b[38;5;246mn\u001b[38;5;242m status\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.116438,
+      "\u001b[38;5;246m \u001b[38;5;242mstatus\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000344,
+      "\u0008 \u001b[38;5;242mstatus\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.227537,
+      "l\u001b[K"
+    ],
+    [
+      0.000229,
+      "\u0008\u001b[38;5;246ml\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000998,
+      "\u001b[38;5;242ms\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.119608,
+      "\u001b[38;5;246mo\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.001155,
+      "\u001b[38;5;242mgs -f bec13518c4…\u001b[17D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.166378,
+      "\u001b[38;5;246mg\u001b[38;5;242ms -f bec13518c4…\u001b[16D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.158407,
+      "\u001b[38;5;246ms\u001b[38;5;242m -f bec13518c4…\u001b[15D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.108624,
+      "\u001b[38;5;246m \u001b[38;5;242m-f bec13518c4…\u001b[14D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000264,
+      "\u0008 \u001b[38;5;242m-f bec13518c4…\u001b[14D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.148194,
+      "-\u001b[38;5;242mf bec13518c4…\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000290,
+      "\u0008\u001b[38;5;246m-\u001b[38;5;242mf bec13518c4…\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.108554,
+      "\u001b[38;5;246mf\u001b[38;5;242m bec13518c4…\u001b[12D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.183457,
+      "\u001b[K"
+    ],
+    [
+      0.000006,
+      "\r\n"
+    ],
+    [
+      0.000002,
+      "\u001b[30"
+    ],
+    [
+      0.000002,
+      "m\u001b("
+    ],
+    [
+      0.000003,
+      "B\u001b["
+    ],
+    [
+      0.000002,
+      "m"
+    ],
+    [
+      0.002382,
+      "\u001b]0;~"
+    ],
+    [
+      0.000005,
+      "/Documents/fomoro-tenso"
+    ],
+    [
+      0.000003,
+      "rfl"
+    ],
+    [
+      0.000002,
+      "ow"
+    ],
+    [
+      0.000002,
+      "\u0007"
+    ],
+    [
+      0.000020,
+      "\u001b[30"
+    ],
+    [
+      0.000003,
+      "m\u001b(B\u001b"
+    ],
+    [
+      0.000002,
+      "[m"
+    ],
+    [
+      0.783077,
+      "[Fri Mar 25 2016 17:08:45 GMT-0700] step 0/1500, training accuracy 0.1044\r\n"
+    ],
+    [
+      0.000577,
+      "[Fri Mar 25 2016 17:08:47 GMT-0700] step 100/1500, training accuracy 0.8304\r\n"
+    ],
+    [
+      0.000130,
+      "[Fri Mar 25 2016 17:08:50 GMT-0700] step 200/1500, training accuracy 0.9034\r\n"
+    ],
+    [
+      0.000102,
+      "[Fri Mar 25 2016 17:08:52 GMT-0700] step 300/1500, training accuracy 0.9226\r\n"
+    ],
+    [
+      0.000107,
+      "[Fri Mar 25 2016 17:08:55 GMT-0700] step 400/1500, training accuracy 0.9358\r\n"
+    ],
+    [
+      5.139870,
+      "[Fri Mar 25 2016 17:08:58 GMT-0700] step 500/1500, training accuracy 0.9436\r\n"
+    ],
+    [
+      0.000237,
+      "[Fri Mar 25 2016 17:09:00 GMT-0700] step 600/1500, training accuracy 0.9534\r\n"
+    ],
+    [
+      5.135559,
+      "[Fri Mar 25 2016 17:09:03 GMT-0700] step 700/1500, training accuracy 0.957\r\n"
+    ],
+    [
+      0.000158,
+      "[Fri Mar 25 2016 17:09:05 GMT-0700] step 800/1500, training accuracy 0.957\r\n"
+    ],
+    [
+      5.124185,
+      "[Fri Mar 25 2016 17:09:08 GMT-0700] step 900/1500, training accuracy 0.9626\r\n"
+    ],
+    [
+      5.146939,
+      "[Fri Mar 25 2016 17:09:11 GMT-0700] step 1000/1500, training accuracy 0.9638\r\n"
+    ],
+    [
+      0.000119,
+      "[Fri Mar 25 2016 17:09:14 GMT-0700] step 1100/1500, training accuracy 0.9596\r\n"
+    ],
+    [
+      5.142094,
+      "[Fri Mar 25 2016 17:09:17 GMT-0700] step 1200/1500, training accuracy 0.9664\r\n"
+    ],
+    [
+      0.000080,
+      "[Fri Mar 25 2016 17:09:19 GMT-0700] step 1300/1500, training accuracy 0.9676\r\n"
+    ],
+    [
+      5.212287,
+      "[Fri Mar 25 2016 17:09:22 GMT-0700] step 1400/1500, training accuracy 0.9706\r\n"
+    ],
+    [
+      0.000082,
+      "[Fri Mar 25 2016 17:09:25 GMT-0700] test accuracy 0.9702\r\n"
+    ],
+    [
+      1.789307,
+      "^C"
+    ],
+    [
+      0.084451,
+      "\u001b]0;~/Documents/fomoro-tensorfl"
+    ],
+    [
+      0.000026,
+      "ow\u0007\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000068,
+      "\u001b[38;5;245m⏎\u001b[0m                                                                             \r \r"
+    ],
+    [
+      0.000100,
+      " ~/Documents/fomoro-tensorflow \u001b[31m±1\u001b[30m\u001b(B\u001b[m \u001b[34mmaster\u001b[30m\u001b(B\u001b[m \u001b[31m♦\u001b[30m\u001b(B\u001b[m \u001b[K"
+    ],
+    [
+      0.575239,
+      "f"
+    ],
+    [
+      0.000239,
+      "\u0008\u001b[38;5;166mf\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000187,
+      "\u001b[38;5;242momoro session logs -f\u001b[21D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.100017,
+      "\u001b[38;5;166mo\u001b[38;5;242mmoro session logs -f\u001b[20D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.103781,
+      "\u001b[38;5;166mm\u001b[38;5;242moro session logs -f\u001b[19D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.104002,
+      "\u001b[38;5;166mo\u001b[38;5;242mro session logs -f\u001b[18D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.180658,
+      "\u001b[38;5;166mr\u001b[38;5;242mo session logs -f\u001b[17D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.069176,
+      "\u001b[38;5;166mo\u001b[38;5;242m session logs -f\u001b[16D\u001b[30m\u001b(B\u001b[m\u0008\u0008\u0008\u0008\u0008\u0008\u001b[38;5;247mfomoro\u001b[38;5;242m session logs -f\u001b[16D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.165185,
+      "\u001b[38;5;247m \u001b[38;5;242msession logs -f\u001b[15D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000340,
+      "\u0008 \u001b[38;5;242msession logs -f\u001b[15D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.087747,
+      "s\u001b[38;5;242mession logs -f\u001b[14D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000262,
+      "\u0008\u001b[38;5;246ms\u001b[38;5;242mession logs -f\u001b[14D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.147296,
+      "\u001b[38;5;246me\u001b[38;5;242mssion logs -f\u001b[13D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.163534,
+      "\u001b[38;5;246ms\u001b[38;5;242msion logs -f\u001b[12D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.119834,
+      "\u001b[38;5;246ms\u001b[38;5;242mion logs -f\u001b[11D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.089868,
+      "\u001b[38;5;246mi\u001b[38;5;242mon logs -f\u001b[10D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.056023,
+      "\u001b[38;5;246mo\u001b[38;5;242mn logs -f\u001b[9D\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.123845,
+      "\u001b[38;5;246mn\u001b[38;5;242m logs -f\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.060379,
+      "\u001b[38;5;246m \u001b[38;5;242mlogs -f\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000228,
+      "\u0008 \u001b[38;5;242mlogs -f\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.107715,
+      "s\u001b[K"
+    ],
+    [
+      0.000247,
+      "\u001b[38;5;242mtatus\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000167,
+      "\u0008\u001b[38;5;246ms\u001b[38;5;242mtatus\u0008\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.142570,
+      "\u001b[38;5;246mt\u001b[38;5;242matus\u0008\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.092883,
+      "\u001b[38;5;246ma\u001b[38;5;242mtus\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.104055,
+      "\u001b[38;5;246mt\u001b[38;5;242mus\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.069921,
+      "\u001b[38;5;246mu\u001b[38;5;242ms\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.105034,
+      "\u001b[38;5;246ms\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.127147,
+      "\r\n"
+    ],
+    [
+      0.000020,
+      "\u001b[30"
+    ],
+    [
+      0.000003,
+      "m\u001b(B\u001b["
+    ],
+    [
+      0.000002,
+      "m"
+    ],
+    [
+      0.002275,
+      "\u001b]0;~/Documents/fomoro-tensor"
+    ],
+    [
+      0.000006,
+      "flow\u0007\u001b[30m"
+    ],
+    [
+      0.000003,
+      "\u001b(B\u001b["
+    ],
+    [
+      0.000002,
+      "m"
+    ],
+    [
+      0.801668,
+      "\u001b[31mSession                                             \u001b[39m\u001b[90m | \u001b[39m\u001b[31mState    \u001b[39m\u001b[90m | \u001b[39m\u001b[31mDuration\u001b[39m\r\njim/convnet#3ad5d080782f90640227c426c9357763f3f05468\u001b[90m | \u001b[39mcompleted\u001b[90m | \u001b[39ma minute\r\n"
+    ],
+    [
+      0.090944,
+      "\u001b]0;~/Documents/fomoro-tensorfl"
+    ],
+    [
+      0.000008,
+      "ow\u0007\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000123,
+      "\u001b[38;5;245m⏎\u001b[0m                                                                             \r \r"
+    ],
+    [
+      0.000116,
+      " ~/Documents/fomoro-tensorflow \u001b[31m±1\u001b[30m\u001b(B\u001b[m \u001b[34mmaster\u001b[30m\u001b(B\u001b[m \u001b[32m♦\u001b[30m\u001b(B\u001b[m \u001b[K"
+    ],
+    [
+      2.393605,
+      "e"
+    ],
+    [
+      0.000217,
+      "\u0008\u001b[38;5;166me\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000907,
+      "\u001b[38;5;242mxit\u0008\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.273354,
+      "\u001b[38;5;166mx\u001b[38;5;242mit\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000376,
+      "\u0008\u0008\u001b[38;5;247mex\u001b[38;5;242mit\u0008\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.128227,
+      "\u001b[38;5;247mi\u001b[38;5;242mt\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000225,
+      "\u0008\u0008\u0008\u001b[38;5;166mexi\u001b[38;5;242mt\u0008\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.123602,
+      "\u001b[38;5;166mt\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.000432,
+      "\u0008\u0008\u0008\u0008\u001b[38;5;247mexit\u001b[30m\u001b(B\u001b[m"
+    ],
+    [
+      0.371156,
+      "\r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[30m"
+    ],
+    [
+      0.000002,
+      "\u001b(B"
+    ],
+    [
+      0.000002,
+      "\u001b[m"
+    ],
+    [
+      0.002345,
+      "\u001b]0;~/"
+    ],
+    [
+      0.000006,
+      "Documents/fomoro-tenso"
+    ],
+    [
+      0.000003,
+      "rfl"
+    ],
+    [
+      0.000002,
+      "ow"
+    ],
+    [
+      0.000002,
+      "\u0007"
+    ],
+    [
+      0.000019,
+      "\u001b[30"
+    ],
+    [
+      0.000003,
+      "m\u001b(B\u001b"
+    ],
+    [
+      0.000002,
+      "[m"
+    ],
+    [
+      0.000215,
+      "\r\n"
+    ],
+    [
+      0.000006,
+      "\u001b[30m\u001b(B\u001b[m"
+    ]
+  ]
+}
