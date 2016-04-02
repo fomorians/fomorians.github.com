@@ -14,8 +14,21 @@ body {
 }
 
 main {
-  min-height: 85vh;
-  text-align: center;
+  min-height: 100vh;
+  text-align: left;
+  color: #fff !important;
+  background-image: url('../images/hero.jpg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+main .jumbotron {
+  padding-top: 20vh;
+}
+
+main h2 {
+  font-size: 56px;
+  font-weight: bold;
 }
 
 footer {
@@ -23,7 +36,19 @@ footer {
 }
 
 h1 {
-  margin-top: 25vh;
+  margin: 24px 0;
+  padding: 0;
+  font-size: 24px !important;
+  color: #fff;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+h3 {
 }
 
 a {
@@ -46,22 +71,12 @@ code {
   font-size: 0.8em;
 }
 
-#draw {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.8;
-  background: url('../images/boids2.jpg');
-  background-size: cover;
-}
-
 .jumbotron {
   background-color: transparent;
   position: relative;
-  border-bottom: 1px solid #efefef;
   margin-bottom: 0;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
 }
 
 .container {
@@ -73,9 +88,15 @@ code {
 }
 
 .signup-link {
-  background-color: #3F94FF;
-  color: white;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
   padding: 12px 24px;
+}
+
+.signup-link:hover {
+  background-color: rgba(0,0,0,.2);
+  border: 1px solid #fff;
 }
 
 .thanks {
@@ -92,18 +113,16 @@ code {
 
 #video {
   text-align: center;
+  color: #fff;
+  background-color: #ed5336;
 }
 
 #video h2 {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 #pricing {
   text-align: center;
-}
-
-#pricing h2 {
-  margin-top: 0;
 }
 
 #pricing .plan {
@@ -127,23 +146,13 @@ code {
   margin-top: 24px;
 }
 
-#steps {
-  text-align: center;
-}
-
-#steps img {
-  margin-top: 20px;
-  max-width: 100%;
-  max-height: 150px;
-}
-
 img.icon {
   height: 60px;
   display: block;
 }
 
-#features h2 {
-  text-align: center;
+#features .header {
+  margin-bottom: 24px;
 }
 
 #features img {
@@ -153,9 +162,26 @@ img.icon {
   margin: 15px 30px 0 0;
 }
 
-#info h3 {
-  text-align: center;
-  padding: 20px 0;
+#info {
+  color: #fff;
+  background-color: #ed5336;
+  overflow: hidden;
+}
+
+#info a {
+  color: #fff;
+  text-decoration: underline;
+
+}
+
+#info a:hover, a:active {
+  color: #333;
+  text-decoration: underline;
+}
+
+#info a.signup-link {
+  color: #fff;
+  text-decoration: none;
 }
 
 #info img {

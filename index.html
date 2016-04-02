@@ -22,51 +22,35 @@
   <![endif]-->
 </head>
 <body>
-  <main class="jumbotron">
-    <div id="draw"></div>
-    <div class="container">
-      <div class="col-md-12">
-        <h1>fomoro</h1>
-        <p>machine learning infastructure made easy</p>
-        <div id="signup" class="signup">
-          <h3>
-            <a href="#" class="btn btn-lg btn-primary signup-link">sign up</a>
-          </h3>
-          <h3 class="thanks">
-            Thanks for signing up! <a href="https://fomoro.gitbooks.io/guide/content/installation.html" target="_blank">Click here to get started</a>.
-          </h3>
+  <main>
+      <div class="container">
+        <div class="col-md-12">
+          <h1>fomoro</h1>
+        </div>
+    </div>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="col-md-6">
+          <h2>train and evaluate your machine learning algorithms</h2>
+          <div id="signup" class="signup">
+            <h3>
+              <a href="#" class="btn btn-lg btn-primary signup-link">try now for free</a>
+            </h3>
+            <h3 class="thanks">
+              Thanks for signing up! <a href="https://fomoro.gitbooks.io/guide/content/installation.html" target="_blank">Click here to get started</a>.
+            </h3>
+          </div>
         </div>
       </div>
     </div>
   </main>
 
-  <section class="jumbotron" id="steps">
+<section class="jumbotron" id="features">
     <div class="container">
-      <h2>Focus on machine learning, not infrastructure</h2>
-      <p>Let us handle the GPUs, model versioning, datasets, training artifacts &amp; logging <br> so you can focus on building machine learning applications.</p>
-
-      <img src="images/steps.jpg">
-    </div>
-  </section>
-
-  <section class="jumbotron" id="video">
-    <div class="container">
-      <h2>Train in the cloud as easily as you train locally</h2>
-      <div id="player-container"></div>
-    </div>
-  </section>
-
-  <section class="jumbotron" id="features">
-    <div class="container">
-      <div class="col-md-12">
-        <h2>Features</h2>
+      <div class="col-md-12 header">
+        <h2>GPU setup, model versioning, training artifacts &amp; logging, all taken care of for you.</h2>
       </div>
       <div class="col-md-6">
-        <div class="feature">
-          <img src="./images/reproduce.png" class="icon">
-          <h3>On-Demand GPUs</h3>
-          <p>Accelerate your training with GPUs.</p>
-        </div>
         <div class="feature">
           <img src="./images/anyplatform.png" class="icon">
           <h3>Model Agnostic</h3>
@@ -77,7 +61,13 @@
           <h3>Integrated Versioning</h3>
           <p>Track your models and training sessions, automatically, using git.</p>
         </div>
+        <div class="feature">
+          <img src="./images/reproduce.png" class="icon">
+          <h3>On-Demand GPUs</h3>
+          <p>Accelerate your training with GPUs.</p>
+        </div>
       </div>
+
       <div class="col-md-6">
         <div class="feature">
           <img src="./images/record.png" class="icon">
@@ -98,9 +88,19 @@
     </div>
   </section>
 
+  <section class="jumbotron" id="video">
+    <div class="container">
+      <h2>train your models, faster</h2>
+      <div id="player-container"></div>
+    </div>
+  </section>
+
   <section class="jumbotron" id="pricing">
     <div class="container">
-      <h2>Pricing (coming soon)</h2>
+      <div class="col-md-12 header">
+        <h2>try now for free</h2>
+        <p>1 GB of cloud storage and 4 hours of GPU training per month</p>
+      </div>
       <div class="row">
         <div class="col-md-3 col-sm-6 plan">
           <img src="./images/developer.png" class="icon">
@@ -139,20 +139,16 @@
           </ul>
         </div>
       </div>
-      <p class="free">Fomoro is <strong>free to try</strong> with up to 1 GB of storage and 4 hours of training per month.</p>
     </div>
   </section>
 
   <section class="jumbotron" id="info">
     <div class="container">
-      <div class="col-md-10 col-md-offset-1">
-        <img src="./images/rocket.png" class="icon">
-
-        <h2>Get Started</h2>
-        <p><a href="https://fomoro.gitbooks.io/guide/content/installation.html" target="_blank">Download</a> the client, read the <a href="https://fomoro.gitbooks.io/guide/content/index.html" target="_blank">docs</a>, check out the <a href="https://fomoro.gitbooks.io/guide/content/api.html" target="_blank">API</a>, or <a href="mailto:team@fomoro.com">contact us</a> with any questions.</p>
-        <h3>
-          <a href="#" class="btn btn-lg btn-primary signup-link">sign up</a>
-        </h3>
+      <div class="col-md-12 header">
+        <h2><a href="https://fomoro.gitbooks.io/guide/content/installation.html" target="_blank">Download</a> the client, read the <a href="https://fomoro.gitbooks.io/guide/content/index.html" target="_blank">docs</a>, check out the <a href="https://fomoro.gitbooks.io/guide/content/api.html" target="_blank">API</a>, or <a href="mailto:team@fomoro.com">contact us</a> with any questions.</h2>
+      </div>
+      <div class="col-md-9">
+        <p><br><a href="#" class="btn btn-lg btn-primary signup-link">try now for free</a></p>
       </div>
     </div>
   </section>
