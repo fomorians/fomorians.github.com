@@ -31,6 +31,10 @@ main h2 {
   font-weight: bold;
 }
 
+main .thanks a {
+  color: white;
+}
+
 footer {
   padding: 40px;
 }
