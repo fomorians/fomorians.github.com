@@ -99,15 +99,25 @@ code {
   margin-top: 45px;
 }
 
-.signup-link {
-  background-color: transparent;
-  border: 1px solid #fff;
+.btn-link.signin-link {
   color: #fff;
-  padding: 12px 24px;
-  text-decoration: none;
+  font-size: 16px;
+  text-decoration: none !important;
 }
 
-.signup-link:hover {
+.btn-link.signin-link:hover {
+  color: #fff;
+  text-decoration: underline !important;
+}
+
+.btn-primary.signup-link {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 12px 24px;
+  text-decoration: none !important;
+}
+
+.btn-primary.signup-link:hover {
   background-color: rgba(0,0,0,.2);
   border: 1px solid #fff;
 }
@@ -188,11 +198,6 @@ footer a, #info a {
 footer a:hover, footer a:active, #info a:hover, #info a:active {
   color: #333;
   text-decoration: underline;
-}
-
-#info a.signup-link {
-  color: #fff;
-  text-decoration: none;
 }
 
 #info img {

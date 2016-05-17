@@ -35,6 +35,8 @@
           <div id="signup" class="signup">
             <h3>
               <a href="#" class="btn btn-lg btn-primary signup-link">try now for free</a>
+              <br>
+              <a href="#" class="btn btn-link signin-link">login to your account</a>
             </h3>
             <h3 class="thanks">
               Thanks for signing up! <a href="https://fomoro.gitbooks.io/guide/content/installation.html" target="_blank">Click here to get started</a>.
@@ -135,7 +137,12 @@
         <h2><a href="https://fomoro.gitbooks.io/guide/content/installation.html" target="_blank">Download</a> the client, read the <a href="https://fomoro.gitbooks.io/guide/content/index.html" target="_blank">docs</a>, check out the <a href="https://fomoro.gitbooks.io/guide/content/api.html" target="_blank">API</a>, or <a href="mailto:team@fomoro.com">contact us</a> with any questions.</h2>
       </div>
       <div class="col-md-12">
-        <p><br><a href="#" class="btn btn-lg btn-primary signup-link">try now for free</a></p>
+        <p>
+          <br>
+          <a href="#" class="btn btn-lg btn-primary signup-link">try now for free</a>
+          <br>
+          <a href="#" class="btn btn-link signin-link">login to your account</a>
+        </p>
       </div>
     </div>
   </section>
@@ -207,12 +214,22 @@
 
     var lock = new Auth0Lock('DvJctZSNy4E0szp7yVgysuNvJoP6G2YL', 'fomoro.auth0.com');
 
-    var links = document.querySelectorAll('.signup-link');
-    Array.prototype.forEach.call(links, function(link) {
+    Array.prototype.forEach.call(document.querySelectorAll('.signup-link'), function(link) {
       link.addEventListener('click', function(e) {
         e.preventDefault();
         analytics.track('Clicked Signup');
-        lock.show({
+        lock.showSignup({
+          callbackURL: 'https://app.fomoro.com',
+          responseType: 'token'
+        });
+      });
+    });
+
+    Array.prototype.forEach.call(document.querySelectorAll('.signin-link'), function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        analytics.track('Clicked Signup');
+        lock.showSignin({
           callbackURL: 'https://app.fomoro.com',
           responseType: 'token'
         });
