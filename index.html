@@ -45,7 +45,7 @@
     </div>
   </main>
 
-<section class="jumbotron" id="features">
+  <section class="jumbotron" id="features">
     <div class="container">
       <div class="col-md-12 header">
         <h2>GPU setup, model versioning, training artifacts &amp; logging, all taken care of for you.</h2>
@@ -174,28 +174,20 @@
 
   <footer>
     <div class="container">
-        <div class="col-md-1">
-          <a href="mailto:team@fomoro.com">Email</a>
-        </div>
-        <div class="col-md-1">
-          <a href="https://twitter.com/jimmfleming">Twitter</a>
-        </div>
-        <div class="col-md-1">
-          <a href="https://medium.com/jim-fleming">Blog</a>
-        </div>
-        <div class="col-md-2 col-md-offset-7">
-          &copy; 2016 Fomoro
-        </div>
+      <div class="col-md-1">
+        <a href="mailto:team@fomoro.com">Email</a>
+      </div>
+      <div class="col-md-1">
+        <a href="https://twitter.com/jimmfleming">Twitter</a>
+      </div>
+      <div class="col-md-1">
+        <a href="https://medium.com/jim-fleming">Blog</a>
+      </div>
+      <div class="col-md-2 col-md-offset-7">
+        &copy; 2016 Fomoro
+      </div>
     </div>
   </footer>
-</body>
-
-  <!-- <script src="scripts/two.js"></script>
-  <script src="scripts/vector.js"></script>
-  <script src="scripts/particle.js"></script>
-  <script src="scripts/centroid.js"></script>
-  <script src="scripts/flock.js"></script>
-  <script src="scripts/main.js"></script> -->
 
   <script src="scripts/asciinema-player.js"></script>
 
@@ -215,44 +207,17 @@
 
     var lock = new Auth0Lock('DvJctZSNy4E0szp7yVgysuNvJoP6G2YL', 'fomoro.auth0.com');
 
-    var result = lock.parseHash(window.location.hash);
-    if (result && result.id_token) {
-      lock.getProfile(result.id_token, function(err, profile) {
-        if (err) {
-          console.error(err);
-          return;
-        }
-
-        analytics.identify(profile.user_id, {
-          email: profile.email
-        });
-
-        analytics.track('Signup');
-
-        var now = Math.floor(Date.now() / 1000);
-
-        Intercom('update', {
-          user_id: profile.user_id,
-          email: profile.email,
-          signed_up_at: now,
-          created_at: now
-        });
-
-        document.getElementById('signup').className = 'signup success';
-      });
-    } else if (result && result.error) {
-      console.error(result.error);
-    }
-
     var links = document.querySelectorAll('.signup-link');
-    for (var i in links) {
-      var link = links[i];
-      link.onclick = function(e) {
+    Array.prototype.forEach.call(links, function(link) {
+      link.addEventListener('click', function(e) {
         e.preventDefault();
         analytics.track('Clicked Signup');
-        lock.showSignup();
-      };
-    }
+        lock.show({
+          callbackURL: 'https://app.fomoro.com',
+          responseType: 'token'
+        });
+      });
+    });
   </script>
 
   <script>
