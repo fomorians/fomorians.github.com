@@ -192,12 +192,16 @@ footer, #info {
 footer a, #info a {
   color: #fff;
   text-decoration: underline;
-
 }
 
-footer a:hover, footer a:active, #info a:hover, #info a:active {
+footer a:hover, footer a:active,
+#info a:hover, #info a:active {
   color: #333;
   text-decoration: underline;
+}
+
+#info .btn-primary:hover, #info .btn-primary:active {
+  border-color: #333;
 }
 
 #info img {
