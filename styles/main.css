@@ -112,14 +112,13 @@ code {
 
 .btn-primary.signup-link {
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   padding: 12px 24px;
   text-decoration: none !important;
 }
 
-.btn-primary.signup-link:hover {
-  background-color: rgba(0,0,0,.2);
-  border: 1px solid #fff;
+.signup .btn-primary.signup-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .thanks {
@@ -134,13 +133,15 @@ code {
   display: block;
 }
 
-#video {
+#video,
+#screenshot {
   text-align: center;
   color: #fff;
   background-color: #ed5336;
 }
 
-#video h2 {
+#video h2,
+#screenshot h2 {
   margin-bottom: 48px;
 }
 
@@ -172,11 +173,13 @@ img.icon {
   display: block;
 }
 
-#features .header {
+#features .header,
+#analyze .header {
   margin-bottom: 24px;
 }
 
-#features img {
+#features img,
+#analyze img {
   float: left;
   clear: right;
   height: 60px;
@@ -200,8 +203,10 @@ footer a:hover, footer a:active,
   text-decoration: underline;
 }
 
-#info .btn-primary:hover, #info .btn-primary:active {
+#info .btn-primary:hover,
+#info .btn-primary:active {
   border-color: #333;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #info img {
