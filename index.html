@@ -12,7 +12,6 @@
   <link href="//fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" rel="stylesheet">
-  <link href="styles/asciinema-player.css" rel="stylesheet">
   <link href="styles/main.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -87,12 +86,7 @@
     </div>
   </section>
 
-  <section class="jumbotron" id="screenshot">
-    <div class="container">
-      <h2>iterate and track your models</h2>
-      <img class="screenshot" src="images/analytics.png" width="800" />
-    </div>
-  </section>
+  <section class="jumbotron" id="screenshot"></section>
 
   <section class="jumbotron" id="features">
     <div class="container">
@@ -102,7 +96,7 @@
       <div class="col-md-6">
         <div class="feature">
           <img src="./images/anyplatform.png" class="icon">
-          <h3>Model Agnostic</h3>
+          <h3>Framework Agnostic</h3>
           <p>Use TensorFlow, Theano, Keras, Lasagne or your own custom code.</p>
         </div>
         <div class="feature">
@@ -119,14 +113,9 @@
 
       <div class="col-md-6">
         <div class="feature">
-          <img src="./images/record.png" class="icon">
-          <h3>Multiple Sessions</h3>
-          <p>Train multiple models or branches simultaneously.</p>
-        </div>
-        <div class="feature">
-          <img src="./images/robot.png" class="icon">
-          <h3>Dataset Management</h3>
-          <p>Publish versioned datasets to keep your data and code in sync.</p>
+          <img src="./images/reproduce.png" class="icon">
+          <h3>On-Demand GPUs</h3>
+          <p>Accelerate your training with GPUs.</p>
         </div>
         <div class="feature">
           <img src="./images/reproduce.png" class="icon">
@@ -137,10 +126,53 @@
     </div>
   </section>
 
-  <section class="jumbotron" id="video">
+  <section class="jumbotron" id="video"></section>
+
+  <section class="jumbotron" id="projects">
     <div class="container">
-      <h2>train your models, faster</h2>
-      <div id="player-container"></div>
+      <div class="col-md-12 header">
+        <h2>Get started with these projects.</h2>
+      </div>
+      <div class="col-md-6">
+        <div>
+          <h3>TD-Gammon</h3>
+          <p>Before DeepMind tackled playing Atari games or built AlphaGo there was TD-Gammon, the first algorithm to reach an expert level of play in backgammon. <br><a href="https://github.com/fomorians/td-gammon">github</a> <a href="https://medium.com/jim-fleming/before-alphago-there-was-td-gammon-13deff866197#.p74myi9ia">blog</a></p>
+        </div>
+        <div>
+          <h3>Theano + Lasagne</h3>
+          <p>Handwritten digits classifier using the MNIST dataset. Based on the Lasagne tutorial. <br><a href="https://github.com/fomorians/fomoro-theano">github</a></p>
+        </div>
+        <div>
+          <h3>TensorFlow</h3>
+          <p>Handwritten digits classifier using the MNIST dataset. Based on the TensorFlow tutorial. <br><a href="https://github.com/fomorians/fomoro-tensorflow">github</a></p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div>
+          <h3>LSTM Odyssey</h3>
+          <p>Systematically evaluate different internal mechanisms of an LSTM (long short-term memory) block by disabling each mechanism in turn and comparing their performance. <br><a href="https://github.com/fomorians/lstm-odyssey">github</a> <a href="https://medium.com/jim-fleming/implementing-lstm-a-search-space-odyssey-7d50c3bacf93">blog</a></p>
+        </div>
+        <div>
+          <h3>Highway Networks</h3>
+          <p> Highway networks, inspired by LSTMs, are a method of constructing networks with hundreds, even thousands, of layers. <br><a href="https://github.com/fomorians/highway-cnn">github</a> <a href="https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa">blog</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="jumbotron" id="info">
+    <div class="container">
+      <div class="col-md-12 header text-center">
+        <h2><a href="mailto:team@fomoro.com">Contact us</a> with any questions.</h2>
+      </div>
+      <div class="col-md-12 text-center">
+        <p>
+          <br>
+          <a href="#" class="btn btn-lg btn-primary signup-link">try now for free</a>
+          <br>
+          <a href="#" class="btn btn-link signin-link">login to your account</a>
+        </p>
+      </div>
     </div>
   </section>
 
@@ -178,54 +210,6 @@
     </div>
   </section>
 
-  <section class="jumbotron" id="info">
-    <div class="container">
-      <div class="col-md-12 header">
-        <h2><a href="https://fomoro.gitbooks.io/guide/content/installation.html" target="_blank">Download</a> the client, read the <a href="https://fomoro.gitbooks.io/guide/content/index.html" target="_blank">docs</a>, check out the <a href="https://fomoro.gitbooks.io/guide/content/api.html" target="_blank">API</a>, or <a href="mailto:team@fomoro.com">contact us</a> with any questions.</h2>
-      </div>
-      <div class="col-md-12">
-        <p>
-          <br>
-          <a href="#" class="btn btn-lg btn-primary signup-link">try now for free</a>
-          <br>
-          <a href="#" class="btn btn-link signin-link">login to your account</a>
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="jumbotron" id="projects">
-    <div class="container">
-      <div class="col-md-12 header">
-        <h2>Get started with these projects.</h2>
-      </div>
-      <div class="col-md-6">
-        <div>
-          <h3>TD-Gammon</h3>
-          <p>Before DeepMind tackled playing Atari games or built AlphaGo there was TD-Gammon, the first algorithm to reach an expert level of play in backgammon. <br><a href="https://github.com/fomorians/td-gammon">github</a> <a href="https://medium.com/jim-fleming/before-alphago-there-was-td-gammon-13deff866197#.p74myi9ia">blog</a></p>
-        </div>
-        <div>
-          <h3>Theano + Lasagne</h3>
-          <p>Handwritten digits classifier using the MNIST dataset. Based on the Lasagne tutorial. <br><a href="https://github.com/fomorians/fomoro-theano">github</a></p>
-        </div>
-        <div>
-          <h3>TensorFlow</h3>
-          <p>Handwritten digits classifier using the MNIST dataset. Based on the TensorFlow tutorial. <br><a href="https://github.com/fomorians/fomoro-tensorflow">github</a></p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div>
-          <h3>LSTM Odyssey</h3>
-          <p>Systematically evaluate different internal mechanisms of an LSTM (long short-term memory) block by disabling each mechanism in turn and comparing their performance. <br><a href="https://github.com/fomorians/lstm-odyssey">github</a> <a href="https://medium.com/jim-fleming/implementing-lstm-a-search-space-odyssey-7d50c3bacf93">blog</a></p>
-        </div>
-        <div>
-          <h3>Highway Networks</h3>
-          <p> Highway networks, inspired by LSTMs, are a method of constructing networks with hundreds, even thousands, of layers. <br><a href="https://github.com/fomorians/highway-cnn">github</a> <a href="https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa">blog</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <footer>
     <div class="container">
       <div class="col-md-1">
@@ -242,8 +226,6 @@
       </div>
     </div>
   </footer>
-
-  <script src="scripts/asciinema-player.js"></script>
 
   <script>
     !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
@@ -281,16 +263,6 @@
           responseType: 'token'
         });
       });
-    });
-  </script>
-
-  <script>
-    asciinema_player.core.CreatePlayer('player-container', 'asciicast-40412.json', {
-      startAt: 1,
-      speed: 2,
-      width: 80,
-      height: 20,
-      fontSize: 'medium'
     });
   </script>
 </body>
