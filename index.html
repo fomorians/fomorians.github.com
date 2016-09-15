@@ -9,223 +9,94 @@
   <title>Fomoro</title>
 
   <link href="favicon.ico" rel="icon">
-  <link href="//fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" rel="stylesheet">
-  <link href="styles/main.css" rel="stylesheet">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 </head>
 <body>
-  <main>
-    <div class="container">
-      <div class="col-md-12">
-        <h1><a href="https://fomoro.com">fomoro</a></h1>
-      </div>
-    </div>
-    <div class="jumbotron">
-      <div class="container">
-        <div class="col-md-6 col-xs-12">
-          <h2>train and evaluate your machine learning algorithms</h2>
-          <div id="signup" class="signup">
-            <h3>
-              <a href="#" class="btn btn-lg btn-primary signup-link">try now for free</a>
-              <br>
-              <a href="#" class="btn btn-link signin-link">login to your account</a>
-            </h3>
+
+  <header class="container">
+    <h1>Machine learning made easy</h1>
+    <h2>Consulting services for machine learning</h2>
+    <h3><a href="mailto:team@fomoro.com" class="btn btn-outline-primary btn-lg">Contact Us</a></h3>
+  </header>
+
+  <!-- Use Cases -->
+  <section class="container">
+    <h3>Use Cases</h3>
+    <p>Recent advancements in deep learning have improved state-of-the-art in computer vision, natural language understand, speech recognition and more.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card card-block">
+            <h4 class="card-title">Computer Vision</h4>
+            <p class="card-text">Product photos, faces, or cats and dogs.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card card-block">
+            <h4 class="card-title">Natural Language Processing</h4>
+            <p class="card-text">Making sense of what users say.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card card-block">
+            <h4 class="card-title">Speech Recognition</h4>
+            <p class="card-text">Understanding what your user's are saying.</p>
           </div>
         </div>
       </div>
     </div>
-  </main>
-
-  <section class="jumbotron" id="analyze">
-    <div class="container">
-      <div class="col-md-12 header">
-        <h2>analyze your models</h2>
-      </div>
-      <div class="col-md-6">
-        <div class="feature">
-          <img src="./images/robot.png" class="icon">
-          <h3>Track Hyperparameters</h3>
-          <p>As your model evolves keep track of what worked and what didn't.</p>
-        </div>
-        <div class="feature">
-          <img src="./images/anyplatform.png" class="icon">
-          <h3>Track Performance</h3>
-          <p>Other training time, the number of parameters and other metrics important for iteration.</p>
-        </div>
-        <div class="feature">
-          <img src="./images/reproduce.png" class="icon">
-          <h3>Leaderboard</h3>
-          <p>Use the leaderboard view to quickly identify your best-performing model.</p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature">
-          <img src="./images/reproduce.png" class="icon">
-          <h3>No More Spreadsheets</h3>
-          <p>Use Fomoro to replace messy, error-prone spreadsheets for reproducibility.</p>
-        </div>
-        <div class="feature">
-          <img src="./images/versions.png" class="icon">
-          <h3>Integrated Versioning</h3>
-          <p>Use git to jump to the exact commit for each training run.</p>
-        </div>
-        <div class="feature">
-          <img src="./images/record.png" class="icon">
-          <h3>Identify Regressions</h3>
-          <p>Quickly identify when and where the model regressed.</p>
-        </div>
-      </div>
-    </div>
   </section>
 
-  <section class="jumbotron" id="screenshot"></section>
-
-  <section class="jumbotron" id="features">
-    <div class="container">
-      <div class="col-md-12 header">
-        <h2>GPU setup, model versioning, training artifacts &amp; logging, all taken care of for you.</h2>
-      </div>
-      <div class="col-md-6">
-        <div class="feature">
-          <img src="./images/anyplatform.png" class="icon">
-          <h3>Framework Agnostic</h3>
-          <p>Use TensorFlow, Theano, Keras, Lasagne or your own custom code.</p>
-        </div>
-        <div class="feature">
-          <img src="./images/versions.png" class="icon">
-          <h3>Integrated Versioning</h3>
-          <p>Track your models and training sessions, automatically, using git.</p>
-        </div>
-        <div class="feature">
-          <img src="./images/reproduce.png" class="icon">
-          <h3>On-Demand GPUs</h3>
-          <p>Accelerate your training with GPUs.</p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature">
-          <img src="./images/reproduce.png" class="icon">
-          <h3>On-Demand GPUs</h3>
-          <p>Accelerate your training with GPUs.</p>
-        </div>
-        <div class="feature">
-          <img src="./images/reproduce.png" class="icon">
-          <h3>Training Artifacts</h3>
-          <p>Download versioned models, checkpoints, logs and other artifacts from training sessions.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="jumbotron" id="video"></section>
-
-  <section class="jumbotron" id="projects">
-    <div class="container">
-      <div class="col-md-12 header">
-        <h2>Get started with these projects.</h2>
-      </div>
-      <div class="col-md-6">
-        <div>
-          <h3>TD-Gammon</h3>
-          <p>Before DeepMind tackled playing Atari games or built AlphaGo there was TD-Gammon, the first algorithm to reach an expert level of play in backgammon. <br><a href="https://github.com/fomorians/td-gammon">github</a> <a href="https://medium.com/jim-fleming/before-alphago-there-was-td-gammon-13deff866197#.p74myi9ia">blog</a></p>
-        </div>
-        <div>
-          <h3>Theano + Lasagne</h3>
-          <p>Handwritten digits classifier using the MNIST dataset. Based on the Lasagne tutorial. <br><a href="https://github.com/fomorians/fomoro-theano">github</a></p>
-        </div>
-        <div>
-          <h3>TensorFlow</h3>
-          <p>Handwritten digits classifier using the MNIST dataset. Based on the TensorFlow tutorial. <br><a href="https://github.com/fomorians/fomoro-tensorflow">github</a></p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div>
-          <h3>LSTM Odyssey</h3>
-          <p>Systematically evaluate different internal mechanisms of an LSTM (long short-term memory) block by disabling each mechanism in turn and comparing their performance. <br><a href="https://github.com/fomorians/lstm-odyssey">github</a> <a href="https://medium.com/jim-fleming/implementing-lstm-a-search-space-odyssey-7d50c3bacf93">blog</a></p>
-        </div>
-        <div>
-          <h3>Highway Networks</h3>
-          <p> Highway networks, inspired by LSTMs, are a method of constructing networks with hundreds, even thousands, of layers. <br><a href="https://github.com/fomorians/highway-cnn">github</a> <a href="https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa">blog</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="jumbotron" id="info">
-    <div class="container">
-      <div class="col-md-12 header text-center">
-        <h2><a href="mailto:team@fomoro.com">Contact us</a> with any questions.</h2>
-      </div>
-      <div class="col-md-12 text-center">
-        <p>
-          <br>
-          <a href="#" class="btn btn-lg btn-primary signup-link">try now for free</a>
-          <br>
-          <a href="#" class="btn btn-link signin-link">login to your account</a>
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="jumbotron" id="pricing">
-    <div class="container">
-      <div class="col-md-12 header">
-        <h2>try now for free</h2>
-        <p>up to 10 hours of free GPU training per month</p>
-      </div>
+  <!-- Services -->
+  <section class="container">
+    <h3>Services</h3>
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 col-sm-6 plan">
-          <img src="./images/developer.png" class="icon">
-          <h3 class="title">Developer</h3>
-          <p class="price">$30/mo </p>
-          <p>45 hours training</p>
+        <div class="col-sm-4">
+          <div class="card card-block">
+            <h4 class="card-title">Training and education</h4>
+            <p class="card-text">If you're an engineering manager and want to get you're team up to speed with machine learning, we can help.</p>
+          </div>
         </div>
-        <div class="col-md-3 col-sm-6 plan">
-          <img src="./images/startup.png" class="icon">
-          <h3 class="title">Startup</h3>
-          <p class="price">$120/mo</p>
-          <p>180 hours training</p>
+        <div class="col-sm-4">
+          <div class="card card-block">
+            <h4 class="card-title">Custom implementations</h4>
+            <p class="card-text">Want to see if deep learning will help your application? We'll build prototypes and help you scale them to production.</p>
+          </div>
         </div>
-        <div class="col-md-3 col-sm-6 plan">
-          <img src="./images/growth.png" class="icon">
-          <h3 class="title">Growth</h3>
-          <p class="price">$240/mo</p>
-          <p>360 hours of training</p>
-        </div>
-        <div class="col-md-3 col-sm-6 plan">
-          <img src="./images/custom.png" class="icon">
-          <h3 class="title">Custom</h3>
-          <p><a href="mailto:team@fomoro.com">Contact Us</a></p>
+        <div class="col-sm-4">
+          <div class="card card-block">
+            <h4 class="card-title">Audits and independent evaluation</h4>
+            <p class="card-text">Following best practices is hard. We can ensure the results you're seeing internally will transfer to production.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <footer>
-    <div class="container">
-      <div class="col-md-1">
-        <a href="mailto:team@fomoro.com">Email</a>
-      </div>
-      <div class="col-md-1">
-        <a href="https://twitter.com/jimmfleming">Twitter</a>
-      </div>
-      <div class="col-md-1">
-        <a href="https://medium.com/jim-fleming">Blog</a>
-      </div>
-      <div class="col-md-2 col-md-offset-7">
-        &copy; 2016 Fomoro
-      </div>
-    </div>
-  </footer>
+  <!-- Blog Posts, Case Studies, Awards, Competitions -->
+  <section class="container">
+    <h3>Content</h3>
+    <dl>
+      <dt><a href='https://medium.com/jim-fleming/before-alphago-there-was-td-gammon-13deff866197#.bs6jgsn0q' target='_blank'>Before AlphaGo there was TD-Gammon</a></dt>
+      <dd>Introduces temporal difference learning, TD-Lambda / TD-Gammon, and eligibility traces.</dd>
+      <dt><a href='https://medium.com/jim-fleming/implementing-lstm-a-search-space-odyssey-7d50c3bacf93#.ju5tr426h' target='_blank'>An LSTM Odyssey</a></dt>
+      <dd>Discusses the paper LSTM: A Search Space Odyssey.</dd>
+      <dt><a href='https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa#.y8e3gtjgt' target='_blank'>Highway Networks with TensorFlow</a></dt>
+      <dd>Walkthrough of an implementation of highway networks.</dd>
+      <dt><a href='https://medium.com/jim-fleming/loading-tensorflow-graphs-via-host-languages-be10fd81876f#.wbjr0rbnh' target='_blank'>Loading TensorFlow graphs from Node.js</a></dt>
+      <dd>An introduction to using TensorFlow's FFI interface.</dd>
+      <dt><a href='https://medium.com/jim-fleming/loading-a-tensorflow-graph-with-the-c-api-4caaff88463f#.6z4xspm78' target='_blank'>Loading a TensorFlow graph with the C++ API</a></dt>
+      <dd>An introduction to using TensorFlow's C++ interface.</dd>
+    </dl>
+  </section>
+
+  <!-- Contact Us -->
+  <section class="container">
+    <h3>Contact Us</h3>
+    <p>We're based in San Francisco, CA. If you're in the Bay Area, we're happy to talk over coffee or if you're not in the area we can connect remotely.</p>
+    <p><a href="mailto:team@fomoro.com" class="btn btn-primary">Contact Us</a></p>
+  </section>
 
   <script>
     !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
@@ -236,34 +107,6 @@
 
   <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/af833orb';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 
-  <script src="https://cdn.auth0.com/js/lock-7.min.js"></script>
-
-  <script>
-    Intercom('boot', { app_id: 'af833orb' });
-
-    var lock = new Auth0Lock('DvJctZSNy4E0szp7yVgysuNvJoP6G2YL', 'fomoro.auth0.com');
-
-    Array.prototype.forEach.call(document.querySelectorAll('.signup-link'), function(link) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        analytics.track('Clicked Signup');
-        lock.showSignup({
-          callbackURL: 'https://app.fomoro.com',
-          responseType: 'token'
-        });
-      });
-    });
-
-    Array.prototype.forEach.call(document.querySelectorAll('.signin-link'), function(link) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        analytics.track('Clicked Signup');
-        lock.showSignin({
-          callbackURL: 'https://app.fomoro.com',
-          responseType: 'token'
-        });
-      });
-    });
-  </script>
+  <script>Intercom('boot', { app_id: 'af833orb' });</script>
 </body>
 </html>
