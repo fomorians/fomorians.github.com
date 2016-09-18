@@ -5,18 +5,20 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
 }
 
 header.jumbotron {
-  background-color: rgba(0,0,0,.7);
-  background-image: url(/images/honeycomb.jpg);
+  background-color: #345B7F;
+  background-image: url(/images/clouds.jpg);
   background-size: cover;
   background-repeat: none;
-  color: #fff;
+  background-position: top;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
   padding: 8rem 2rem;
   margin-bottom: 0;
 }
@@ -31,7 +33,7 @@ h1.display-1 {
 }
 
 h2.display-4 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
   letter-spacing: 1px;
@@ -39,7 +41,7 @@ h2.display-4 {
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 section {
@@ -48,16 +50,11 @@ section {
 }
 
 .card {
-  background-color: rgba(0,0,0,.1);
+  background-color: rgba(0, 0, 0, 0.1);
   border: none;
 }
 
 #contact-us {
-  background-color: rgba(0,0,0,.7);
-  background-image: url(/images/honeycomb.jpg);
-  background-size: cover;
-  background-repeat: none;
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
-
-
