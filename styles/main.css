@@ -5,7 +5,59 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
 }
+
+header.jumbotron {
+  background-color: rgba(0,0,0,.7);
+  background-image: url(/images/honeycomb.jpg);
+  background-size: cover;
+  background-repeat: none;
+  color: #fff;
+  padding: 8rem 2rem;
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lato', serif;
+  font-weight: 500;
+}
+
+h1.display-1 {
+  font-size: 4rem;
+}
+
+h2.display-4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.card {
+  background-color: rgba(0,0,0,.1);
+  border: none;
+}
+
+#contact-us {
+  background-color: rgba(0,0,0,.7);
+  background-image: url(/images/honeycomb.jpg);
+  background-size: cover;
+  background-repeat: none;
+  color: #fff;
+}
+
+
