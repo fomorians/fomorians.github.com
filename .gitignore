@@ -1,1 +1,8 @@
+# System Files
 .DS_Store
+
+# NPM Packages
+node_modules
+
+# Source Images
+.psd
