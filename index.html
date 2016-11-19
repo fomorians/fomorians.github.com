@@ -16,33 +16,42 @@
   </head>
   <body>
 
-    <header class="jumbotron jumbotron-fluid">
+    <nav>
+      <a class="first" href="#fomoro">Fomoro</a>
+      <a href="#about">About</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#use-cases">Use Cases</a>
+      <a href="#contact-us">Contact</a>
+    </nav>
+
+    <section id="fomoro">
       <div class="container">
         <h1 class="col-md-12">Machine learning<br />made easy.</h1>
-        <h2 class="col-md-8">We can help your company utilize the latest advances in machine learning.</h2>
+        <p class="sub-heading col-md-8">Utilize the latest advances in machine learning.</p>
         <p class="col-md-12">
             <a href="#contact" class="btn btn-primary btn-lg" onclick="Intercom('showNewMessage', 'I\'d like someone to contact me about Fomoro')">Contact Us</a>
         </p>
       </div>
-    </header>
+    </section>
 
-    <section id="services" >
+    <section id="about">
       <div class="container">
-        <h3 class="col-md-12">Services</h3>
-        <p class="col-md-12">Want to see if deep learning will help your business?<br> We're involved with all phases of a ML project from exploratory prototypes to scaled production models.</p>
+        <h2 class="col-md-12">Fomoro is a full-service machine learning consultancy.</h2>
+        <p class="sub-heading col-md-12">
+           We specialize in applying cutting-edge deep learning research to business problems and can help with everything from exploratory prototypes to scaled production models.</p>
+        </p>
         <div class="content-section">
           <div class="col-md-4">
-            <h4>Data analysis</h4>
+            <h3>Model creation and evaluation.</h3>
+            <p>Following state-of-the-art is hard and always changing. Ensure the results you're seeing internally will transfer to production.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Training and education.</h3>
+            <p>Get your engineering, product, or design teams up to speed with the latest deep-learning techniques.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Data analysis.</h3>
             <p>When you have lots of data but need more direction on how it can be used, we can provide insight.</p>
-          </div>
-          <div class="col-md-4">
-            <h4>Training and education</h4>
-            <p>We can get your engineering, product, or design teams up to speed with machine learning.</p>
-          </div>
-
-          <div class="col-md-4">
-            <h4>Audits and evaluation</h4>
-            <p>Following best practices is hard and always changing. We can ensure the results you're seeing internally will transfer to production.</p>
           </div>
         </div>
       </div>
@@ -50,49 +59,55 @@
 
     <section id="case-studies">
       <div class="container">
-        <h3 class="col-md-12">Articles &amp; Case Studies</h3>
-        <dl class="col-md-5">
-          <dt><h4><a href='https://medium.com/@jimfleming/notes-on-the-numerai-ml-competition-14e3d42c19f3#.djr8fx50w' target='_blank'>Notes on the Numerai ML Competition</a></h4></dt>
-          <dd>What I tried, what worked well, and what didn’t work at all.</dd>
-
-          <dt><h4><a href='https://medium.com/jim-fleming/loading-a-tensorflow-graph-with-the-c-api-4caaff88463f#.6z4xspm78' target='_blank'>Loading a TensorFlow graph with the C++ API</a></h4></dt>
-          <dd>An introduction to using TensorFlow's C++ interface.</dd>
-
-          <dt><h4><a href='https://medium.com/jim-fleming/before-alphago-there-was-td-gammon-13deff866197#.bs6jgsn0q' target='_blank'>Before AlphaGo there was TD-Gammon</a></h4></dt>
-          <dd>Introduces temporal difference learning, TD-Lambda / TD-Gammon, and eligibility traces.</dd>
-        </dl>
-        <dl class="col-md-5 offset-md-1">
-          <dt><h4><a href='https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa#.y8e3gtjgt' target='_blank'>Highway Networks with TensorFlow</a></h4></dt>
-          <dd>Walkthrough of an implementation of highway networks.</dd>
-
-          <dt><h4><a href='https://medium.com/jim-fleming/loading-tensorflow-graphs-via-host-languages-be10fd81876f#.wbjr0rbnh' target='_blank'>Loading TensorFlow graphs from Node.js</a></h4></dt>
-          <dd>An introduction to using TensorFlow's FFI interface.</dd>
-
-          <dt><h4><a href='https://medium.com/jim-fleming/implementing-lstm-a-search-space-odyssey-7d50c3bacf93#.ju5tr426h' target='_blank'>An LSTM Space Search Odyssey</a></h4></dt>
-          <dd>Discusses the paper LSTM: A Search Space Odyssey.</dd>
-        </dl>
+        <h2 class="col-md-12">Articles &amp; Case Studies</h2>
+        <div class="col-md-12 item-container">
+          <div class="item">
+            <h3><a href='https://medium.com/@jimfleming/notes-on-the-numerai-ml-competition-14e3d42c19f3#.djr8fx50w' target='_blank'>.01</a>Notes on the Numerai ML Competition</h3>
+            <p>What I tried, what worked well, and what didn’t work at all. <a href='https://medium.com/@jimfleming/notes-on-the-numerai-ml-competition-14e3d42c19f3#.djr8fx50w' target='_blank'>read &raquo;</a></p>
+          </div>
+          <div class="item">
+            <h3><a href='https://medium.com/jim-fleming/loading-a-tensorflow-graph-with-the-c-api-4caaff88463f#.6z4xspm78' target='_blank'>.02</a>Loading a TensorFlow graph with the C++ API</h3>
+            <p>An introduction to using TensorFlow's C++ interface. <a href='https://medium.com/jim-fleming/loading-a-tensorflow-graph-with-the-c-api-4caaff88463f#.6z4xspm78' target='_blank'>read &raquo;</a></p>
+          </div>
+          <div class="item">
+            <h3><a href='https://medium.com/jim-fleming/before-alphago-there-was-td-gammon-13deff866197#.bs6jgsn0q' target='_blank'>.03</a>Before AlphaGo there was TD-Gammon</h3>
+            <p>Introduces temporal difference learning, TD-Lambda / TD-Gammon, and eligibility traces. <a href='https://medium.com/jim-fleming/before-alphago-there-was-td-gammon-13deff866197#.bs6jgsn0q' target='_blank'>read &raquo;</a></p>
+          </div>
+          <div class="item">
+            <h3><a href='https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa#.y8e3gtjgt' target='_blank'>.04</a>Highway Networks with TensorFlow</h3>
+            <p>Walkthrough of an implementation of highway networks. <a href='https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa#.y8e3gtjgt' target='_blank'>read &raquo;</a></p>
+          </div>
+          <div class="item">
+            <h3><a href='https://medium.com/jim-fleming/loading-tensorflow-graphs-via-host-languages-be10fd81876f#.wbjr0rbnh' target='_blank'>.05</a>Loading TensorFlow graphs from Node.js</h3>
+            <p>An introduction to using TensorFlow's FFI interface. <a href='https://medium.com/jim-fleming/loading-tensorflow-graphs-via-host-languages-be10fd81876f#.wbjr0rbnh' target='_blank'>read &raquo;</a></p>
+          </div>
+          <div class="item">
+            <h3><a href='https://medium.com/jim-fleming/implementing-lstm-a-search-space-odyssey-7d50c3bacf93#.ju5tr426h' target='_blank'>.06</a>An LSTM Space Search Odyssey</h3>
+            <p>Discusses the paper LSTM: A Search Space Odyssey. <a href='https://medium.com/jim-fleming/implementing-lstm-a-search-space-odyssey-7d50c3bacf93#.ju5tr426h' target='_blank'>read &raquo;</a></p>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="use-cases">
       <div class="container">
-        <h3 class="col-md-12">Use Cases</h3>
-        <p class="col-md-12">Recent advancements in deep learning have improved state-of-the-art in computer vision, natural language processing, speech recognition and more.</p>
+        <h2 class="col-md-12">Use Cases</h2>
+        <p class="sub-heading col-md-12">Recent advancements in deep learning have improved state-of-the-art in computer vision, natural language processing, speech recognition and more.</p>
         <div class="content-section">
           <div class="col-md-3">
-            <h4>Computer Vision</h4>
+            <h3>Computer Vision</h3>
             <p>Product photos, real estate, faces, or cats and dogs.</p>
           </div>
           <div class="col-md-3">
-            <h4>Natural Language</h4>
+            <h3>Natural Language</h3>
             <p>Understanding user-generated text.</p>
           </div>
           <div class="col-md-3">
-            <h4>Speech Recognition</h4>
+            <h3>Speech Recognition</h3>
             <p>Understanding spoken words.</p>
           </div>
           <div class="col-md-3">
-            <h4>Synthetic Data</h4>
+            <h3>Synthetic Data</h3>
             <p>Sometimes you just need more data.</p>
           </div>
         </div>
@@ -101,8 +116,8 @@
 
     <section id="contact-us">
       <div class="container">
-        <h3 class="col-md-12">Contact Us</h3>
-        <p class="col-md-8">We're based in San Francisco, CA. We'd love to talk over coffee or connect remotely.</p>
+        <h2 class="col-md-12">Contact Us</h2>
+        <p class="sub-heading col-md-12">We're based in San Francisco, CA. We'd love to talk over coffee or connect remotely.</p>
         <p class="col-md-12">
             <a href="#contact" class="btn btn-primary btn-lg" onclick="Intercom('showNewMessage', 'I\'d like someone to contact me about Fomoro')">Contact Us</a>
         </p>
