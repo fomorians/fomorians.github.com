@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather:400i|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display');
 
 html, body {
   height: 100%;
@@ -35,13 +35,17 @@ h2 {
   font-size: 36px;
 }
 
-h2:after {
+h1:after, h2:after {
   content: '';
   display: block;
-  width: 60px;
+  width: 10%;
   height: 1px;
   background-color: #58c6c2;
   margin: 20px 0 0;
+}
+
+h1:after {
+  width: 33%;
 }
 
 h3 {
@@ -77,14 +81,12 @@ section {
   letter-spacing: 1px;
 }
 
-dt {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-weight: 400;
+#fomoro .sub-heading {
   font-size: 36px;
 }
 
 .content-section {
+  padding-top: 30px;
   border: 1px solid transparent;
   overflow: hidden;
 }
@@ -107,8 +109,8 @@ dt {
 }
 
 .btn-primary {
-  color: #58c6c2;
-  background-color: #fff;
+  color: #fff;
+  background-color: #58c6c2;
   border: 2px solid #58c6c2;
   border-radius: 0;
   text-transform: uppercase;
@@ -120,7 +122,7 @@ dt {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:active:focus {
-  color: #fff;
-  background-color: #58c6c2;
+  color: #58c6c2;
+  background-color: #fff;
   border: 2px solid #58c6c2;
 }
