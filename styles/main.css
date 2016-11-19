@@ -70,8 +70,12 @@ nav a {
 }
 
 section {
-  padding: 60px 0;
+  padding-top: 60px;
   overflow: hidden;
+}
+
+section:last-of-type {
+  padding-bottom: 60px;
 }
 
 .sub-heading{
@@ -83,6 +87,28 @@ section {
 
 #fomoro .sub-heading {
   font-size: 36px;
+}
+
+.image {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 1px;
+  padding-top: 33vh;
+  clear: both;
+}
+
+#gears {
+  background-image: url(/images/gears.jpg);
+}
+
+#motorcycle {
+  background-image: url(/images/motorcycle.jpg);
+}
+#rider {
+  background-image: url(/images/rider.jpg);
 }
 
 .content-section {
