@@ -134,6 +134,15 @@ section:last-of-type {
   margin-bottom: 15px;
 }
 
+ul.process {
+    list-style: circle;
+}
+
+ul.process li {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
 .leadership {
   text-align: center;
 }
