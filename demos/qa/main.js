@@ -131,6 +131,12 @@
       this.next_story_el.addEventListener('click', this.nextStory.bind(this));
     }
 
+    toggleQueries() {
+      _.each(this.query_els, query_el => {
+        query_el.disabled = this.is_loading;
+      });
+    }
+
     askQuery(query_index, e) {
       e.preventDefault();
 
@@ -140,6 +146,7 @@
 
       this.answer_el.innerText = 'Thinking...';
       this.is_loading = true;
+      this.toggleQueries();
 
       let query = [tokenize(this.queries[query_index], this.task.vocab)];
 
@@ -149,6 +156,7 @@
           location: this.task.vocab[answer_id]
         });
         this.is_loading = false;
+        this.toggleQueries();
       });
     }
 
