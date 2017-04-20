@@ -61,20 +61,27 @@
     <div class="row">
       <div class="col-lg mb-4" align="center">
         <img id="display_image" src="http://www.piperstreetvet.com.au/wp-content/uploads/2015/11/puppy.jpg" class="img-thumbnail">
-        <a id="get_image" href="#" class="btn btn-success" style="margin:10px">Get Random Image</a>
+        <div>
+        	<button id="get_image" class="btn btn-success" style="margin:10px">Get Face</a>
+        </div>
       </div>
 
       <div class="col-lg" align="center">
         <h3>Variables To Change</h3>
-        <p></p>
-        <input id="var_1" type="checkbox"> Give them a hat!
-        <p></p>
-        <p><input id="var_2" type="checkbox"> Maybe add glasses? </p>
+        <div><input id="var_1" type="checkbox" style="margin:10px"> First toggle! </div>
+        <div><input id="var_2" type="checkbox" style="margin:10px"> Second Toggle? </div>
         <div class="btn-group" role="group" aria-label="Basic example">
-          <button id="decrease_z" type="button" class="btn btn-secondary">Less Hair</button>
-          <button id="increase_z" type="button" class="btn btn-secondary">More Hair</button>
+          <button id="decrease_z" type="button" class="btn btn-secondary" style="margin:10px">Less Interp</button>
+          <button id="increase_z" type="button" class="btn btn-secondary" style="margin:10px">More Interp</button>
+        </div>
+        <div>
+          <label id="interp_label">6 of 12 Interpolations</label>
+        </div>
+        <div>
+          <button id="restore_image" class="btn btn-success" style="margin:10px">Restore Image</a>
         </div>
       </div>
+
     </div>
 
     <footer class="footer">
